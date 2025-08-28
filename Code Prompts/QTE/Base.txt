@@ -1,0 +1,15 @@
+make a script that acts like a quick time event.
+I want it to ask which of multiple options to use for variations of it upon start up: Discord, Roblox, and that's it for now.
+After one of them is selected, ask them how long they want it to be in seconds (max 30)
+As an optional question, ask it for a "preview message", if "none" was typed then skip this.
+After all questions are answered, make it wait till the "P" key is pressed
+
+If you need to remove the "<>" aka angle brackets from the variable names so they can work, then you may do so.
+Here's a list of variables you'll need to make:
+<NUMBER> = this will be the value selected for the second question, which asks how long the QTE will be.
+<PREVIEW_MESSAGE> = This will store the answer provided by the option "preview message" question.
+<TIME_LEFT> = This will store the amount of time left in the QTE, and will only start counting down after the "time left" message was sent, it starts at the <NUMBER> variable as default.
+
+Here's what each "variant" will do:
+For the Discord option, if the "preview message" was answered then type the answer (again if the "preview message" is "none" skip this), then press enter. After that type "[QUICK TIME EVENT: <NUMBER> SECONDS]" but replace the "<NUMBER>" with the chosen length in seconds for the QTE (QTE meaning Quick Time Event), and press enter again. Next type "Time Left: <NUMBER>", then press enter. Finally, start ticking down the <TIME_LEFT> variable by one every second (but only have it tick down when it's not changing the visible value), and everytime it ticks down press the up arrow key once, press backspace for how many digits were in the <TIME_LEFT> variable before it ticked down, and type in the new number from the <TIME_LEFT> variable then press enter, only AFTER the new number was typed will it continue to tick down.
+For the Roblox option, instead of doing "enter" you may need to do a new line instead.
