@@ -35,14 +35,22 @@ def wait_for_p():
 			break
 		time.sleep(0.05)
 def type_and_enter(text):
-	pyautogui.typewrite(text)
+	for char in text:
+		print(f"Key pressed: {char}")
+		pyautogui.typewrite(char, interval=0.1)
+	print("Key pressed: enter")
 	pyautogui.press('enter')
 def type_and_newline(text):
-	pyautogui.typewrite(text)
-	pyautogui.typewrite('\n')
+	for char in text:
+		print(f"Key pressed: {char}")
+		pyautogui.typewrite(char, interval=0.1)
+	print("Key pressed: newline")
+	pyautogui.typewrite('\n', interval=0.1)
 def run_discord_qte(NUMBER, PREVIEW_MESSAGE):
 	TIME_LEFT = NUMBER
 	if PREVIEW_MESSAGE:
+		pyautogui.press('backspace')
+		print("Key pressed: backspace")
 		type_and_enter(PREVIEW_MESSAGE)
 	type_and_enter(f"[QUICK TIME EVENT: {NUMBER} SECONDS]")
 	type_and_enter(f"Time Left: {TIME_LEFT}")
@@ -53,11 +61,22 @@ def run_discord_qte(NUMBER, PREVIEW_MESSAGE):
 		pyautogui.press('up')
 		for _ in range(prev_digits):
 			pyautogui.press('backspace')
-		pyautogui.typewrite(str(TIME_LEFT))
+		for char in str(TIME_LEFT):
+			print(f"Key pressed: {char}")
+			pyautogui.typewrite(char, interval=0.1)
+		print("Key pressed: enter")
 		pyautogui.press('enter')
+	# After countdown reaches 0
+	for char in "TIME'S UP!":
+		print(f"Key pressed: {char}")
+		pyautogui.typewrite(char, interval=0.1)
+	print("Key pressed: enter")
+	pyautogui.press('enter')
 def run_roblox_qte(NUMBER, PREVIEW_MESSAGE):
 	TIME_LEFT = NUMBER
 	if PREVIEW_MESSAGE:
+		pyautogui.press('backspace')
+		print("Key pressed: backspace")
 		type_and_newline(PREVIEW_MESSAGE)
 	type_and_newline(f"[QUICK TIME EVENT: {NUMBER} SECONDS]")
 	type_and_newline(f"Time Left: {TIME_LEFT}")
@@ -68,8 +87,17 @@ def run_roblox_qte(NUMBER, PREVIEW_MESSAGE):
 		pyautogui.press('up')
 		for _ in range(prev_digits):
 			pyautogui.press('backspace')
-		pyautogui.typewrite(str(TIME_LEFT))
-		pyautogui.typewrite('\n')
+		for char in str(TIME_LEFT):
+			print(f"Key pressed: {char}")
+			pyautogui.typewrite(char, interval=0.1)
+		print("Key pressed: newline")
+		pyautogui.typewrite('\n', interval=0.1)
+	# After countdown reaches 0
+	for char in "TIME'S UP!":
+		print(f"Key pressed: {char}")
+		pyautogui.typewrite(char, interval=0.1)
+	print("Key pressed: newline")
+	pyautogui.typewrite('\n', interval=0.1)
 def main():
 	variant = get_variant()
 	NUMBER = get_duration()
