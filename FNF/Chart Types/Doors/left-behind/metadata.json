@@ -1,0 +1,52 @@
+{
+    "artists": [
+        "Rochi",
+        "Kaleidoscoper",
+        "Catimbas",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "glitch",
+    "coders": [],
+    "cost": 120,
+    "deathMetadata": {
+        "deathSpriteType": "gf-dead",
+        "deathTipCategory": "glitch"
+    },
+    "difficulties": {
+        "easy": 5,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Left Behind",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Tiburones202"
+    ],
+    "hasHellDiff": false,
+    "internalName": "left-behind",
+    "mechanicDifficulties": {
+        "easy": 10,
+        "hard": 10,
+        "hell": -2,
+        "normal": 10
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "glitch",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 167
+    },
+    "unlockMethod": "STORY_MODE"
+}

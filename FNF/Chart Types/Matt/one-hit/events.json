@@ -1,0 +1,136 @@
+{
+	"song": {
+		"events": [
+			[
+				11228.0701754386,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"1"
+					],
+					[
+						"Better Zoom",
+						"camGame,cubeOut",
+						"-0.1,1"
+					]
+				]
+			],
+			[
+				22456.1403508772,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"0"
+					]
+				]
+			],
+			[
+				33684.2105263158,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"1"
+					]
+				]
+			],
+			[
+				56140.3508771931,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"0"
+					]
+				]
+			],
+			[
+				67368.4210526317,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"1"
+					]
+				]
+			],
+			[
+				145964.912280702,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"0"
+					]
+				]
+			],
+			[
+				157192.982456141,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"1"
+					]
+				]
+			],
+			[
+				179649.122807018,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"0"
+					]
+				]
+			],
+			[
+				189473.684210527,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartIn",
+						"0.3,2"
+					]
+				]
+			],
+			[
+				191220.394736843,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.4,1.5"
+					],
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				191271.929824562,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"1"
+					]
+				]
+			],
+			[
+				219146.411483254,
+				[
+					[
+						"Set Property",
+						"duetCamera",
+						"0"
+					]
+				]
+			]
+		]
+	}
+}

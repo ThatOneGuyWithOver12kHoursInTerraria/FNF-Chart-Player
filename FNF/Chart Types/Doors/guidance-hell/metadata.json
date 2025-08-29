@@ -1,0 +1,47 @@
+{
+    "artists": [
+        "Catimbas",
+        "Rochi",
+        "PurpleDerple",
+        "Yosibu",
+        "Callu",
+        "Ripsy"
+    ],
+    "category": "start",
+    "coders": [],
+    "cost": 0,
+    "difficulties": {
+        "easy": 2,
+        "hard": 5,
+        "hell": 9,
+        "normal": 4
+    },
+    "displayName": "Guidance Heaven",
+    "easyCharters": [
+    ],
+    "forceUnlock": true,
+    "hardCharters": [
+    ],
+    "hasHellDiff": true,
+    "internalName": "guidance-hell",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "guidingLight",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 223,
+        "normal": 127
+    },
+    "unlockMethod": "STORY_MODE"
+}

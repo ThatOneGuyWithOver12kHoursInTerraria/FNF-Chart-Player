@@ -1,0 +1,47 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "timothy",
+    "coders": [],
+    "cost": 60,
+    "difficulties": {
+        "easy": 5,
+        "hard": 8,
+        "hell": -2,
+        "normal": 7
+    },
+    "displayName": "Jumpscare",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": false,
+    "internalName": "jumpscare",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": 2,
+        "normal": 2
+    },
+    "music": [
+        "Fearless"
+    ],
+    "normalCharters": [
+        "Leetram",
+        "Hris"
+    ],
+    "ostArtPath": "timothy",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 183
+    },
+    "unlockMethod": "STORY_MODE"
+}

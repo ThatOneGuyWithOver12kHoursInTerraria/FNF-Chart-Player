@@ -1,0 +1,53 @@
+{
+    "artists": [
+        "Ripsy",
+        "PurpleDerple",
+        "NotMerritz",
+        "ChemicalArtist",
+        "Callu",
+        "Yosibu"
+    ],
+    "category": "seek",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "seek"
+    },
+    "difficulties": {
+        "easy": 3,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Delve",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Igloo",
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "delve",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "music": [
+        "Zumamir"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "seek",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 157
+    },
+    "unlockMethod": "STORY_MODE"
+}

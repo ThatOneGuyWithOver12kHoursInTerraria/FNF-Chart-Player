@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "...well I can't really say I expected you not to find me here.",
+			"boxState": "normal",
+			"portrait": "Matt",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "I kinda took the time to stretch out, flesh out my skills.",
+			"boxState": "normal",
+			"portrait": "Matt",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "And I think I'm ready to go all out this time.",
+			"boxState": "normal",
+			"portrait": "Matt",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "BF",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "...rapping wise.",
+			"boxState": "normal",
+			"portrait": "Matt",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "You're funny sometimes.",
+			"boxState": "normal",
+			"portrait": "Matt",
+			"speed": 0.05,
+			"sound": ""
+		}
+	]
+}

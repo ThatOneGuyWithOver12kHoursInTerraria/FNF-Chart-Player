@@ -1,0 +1,51 @@
+{
+    "artists": [
+        "Catimbas",
+        "PurpleDerple",
+        "JEUDRAXXD",
+        "Callu"
+    ],
+    "category": "figure",
+    "coders": [],
+    "cost": 130,
+    "deathMetadata": {
+        "deathTipCategory": "figure"
+    },
+    "difficulties": {
+        "easy": 6,
+        "hard": 9,
+        "hell": -2,
+        "normal": 8
+    },
+    "displayName": "Imperceptible",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "imperceptible",
+    "mechanicDifficulties": {
+        "easy": 5,
+        "hard": 8,
+        "hell": 10,
+        "normal": 7
+    },
+    "music": [
+        "Waldo69",
+        "FM065"
+    ],
+    "normalCharters": [
+        "Ens4lada"
+    ],
+    "ostArtPath": "figure",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 203
+    },
+    "unlockMethod": "STORY_MODE"
+}

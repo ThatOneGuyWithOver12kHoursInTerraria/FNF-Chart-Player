@@ -1,0 +1,52 @@
+{
+    "artists": [
+        "Rochi",
+        "Kaleidoscoper",
+        "BlueRJ",
+        "Callu",
+        "Catimbas",
+        "Yosibu"
+    ],
+    "category": "rush",
+    "coders": [],
+    "cost": 80,
+    "deathMetadata": {
+        "deathTipCategory": "rush"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": -2,
+        "normal": 7
+    },
+    "displayName": "Flicker",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "flicker",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": -2,
+        "normal": 2
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "rush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 177
+    },
+    "unlockMethod": "STORY_MODE"
+}

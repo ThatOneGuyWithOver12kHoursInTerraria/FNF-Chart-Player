@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				71037.7358490565,
+				[
+					[
+						"Play Animation",
+						"micThrow",
+						"Dad"
+					]
+				]
+			],
+			[
+				71320.7547169811,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.1,1.5"
+					]
+				]
+			],
+			[
+				71603.7735849056,
+				[
+					[
+						"Play Sound",
+						"mic",
+						"1"
+					],
+					[
+						"Screen Shake",
+						"",
+						"0.2, 0.01"
+					]
+				]
+			],
+			[
+				72452.8301886792,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.1,1.5"
+					],
+					[
+						"Change Character",
+						"Dad",
+						"bluematt-alt"
+					]
+				]
+			]
+		]
+	}
+}

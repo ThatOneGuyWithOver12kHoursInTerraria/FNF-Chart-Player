@@ -1,0 +1,50 @@
+{
+    "artists": [
+        "Callu",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "screech",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "screech"
+    },
+    "difficulties": {
+        "easy": 3,
+        "hard": 8,
+        "hell": -1,
+        "normal": 5
+    },
+    "displayName": "Annoyance",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Igloo"
+    ],
+    "hasHellDiff": false,
+    "internalName": "annoyance",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": -1,
+        "normal": 2
+    },
+    "music": [
+        "Waleter"
+    ],
+    "normalCharters": [
+        "Igloo"
+    ],
+    "ostArtPath": "screech",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 104
+    },
+    "unlockMethod": "STORY_MODE"
+}

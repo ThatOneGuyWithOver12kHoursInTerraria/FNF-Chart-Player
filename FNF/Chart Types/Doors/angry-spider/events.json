@@ -1,0 +1,1186 @@
+{
+	"song": {
+		"events": [
+			[
+				31609.756097561,
+				[
+					[
+						"Change Character",
+						"BF",
+						"jokeBFAmogus"
+					]
+				]
+			],
+			[
+				32487.8048780488,
+				[
+					[
+						"cameraFadeGame",
+						"0xB9FF0000",
+						"0.2"
+					]
+				]
+			],
+			[
+				32780.4878048781,
+				[
+					[
+						"Change Character",
+						"BF",
+						"jokeBF"
+					],
+					[
+						"endFadeGame",
+						"0xB9FF0000",
+						"0.1"
+					]
+				]
+			],
+			[
+				53926.8292682926,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Ow!"
+					]
+				]
+			],
+			[
+				54731.7073170731,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"A spider bit"
+					]
+				]
+			],
+			[
+				55756.0975609756,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"My-y-y"
+					]
+				]
+			],
+			[
+				56195.1219512195,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				84292.6829268292,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Hey its me"
+					]
+				]
+			],
+			[
+				84292.6829268292,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"goku_tim"
+					]
+				]
+			],
+			[
+				84731.7073170731,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Go-ku"
+					]
+				]
+			],
+			[
+				85170.731707317,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Goku"
+					]
+				]
+			],
+			[
+				85463.4146341462,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"H-h-hey its me"
+					]
+				]
+			],
+			[
+				86195.1219512194,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Go-goku"
+					]
+				]
+			],
+			[
+				86634.1463414633,
+				[
+					[
+						"Change Character",
+						"BF",
+						"goku_bf"
+					]
+				]
+			],
+			[
+				86634.1463414633,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Im bout to get"
+					]
+				]
+			],
+			[
+				87219.5121951219,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Racist"
+					]
+				]
+			],
+			[
+				87512.1951219511,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Racist"
+					]
+				]
+			],
+			[
+				87804.8780487804,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"I'm even more"
+					]
+				]
+			],
+			[
+				88536.5853658536,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Ra-a-a"
+					]
+				]
+			],
+			[
+				88975.6097560975,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Hey Papyrus"
+					]
+				]
+			],
+			[
+				88975.6097560975,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"tim_sans"
+					],
+					[
+						"Change Character",
+						"BF",
+						"jokeBF"
+					]
+				]
+			],
+			[
+				89853.6585365853,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"I"
+					]
+				]
+			],
+			[
+				90146.3414634145,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Burnt the water"
+					]
+				]
+			],
+			[
+				91024.3902439023,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"wa-wa"
+					]
+				]
+			],
+			[
+				91317.0731707316,
+				[
+					[
+						"Change Character",
+						"BF",
+						"jokeBF_Pap"
+					]
+				]
+			],
+			[
+				91317.0731707316,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Sans how the fuck"
+					]
+				]
+			],
+			[
+				92341.463414634,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"You burn the water"
+					]
+				]
+			],
+			[
+				93365.8536585365,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"AAAAAAAAAAAAAAAAAAAAAAAAA"
+					]
+				]
+			],
+			[
+				93658.5365853657,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"timothy_joke"
+					],
+					[
+						"Change Character",
+						"BF",
+						"jokeBF"
+					]
+				]
+			],
+			[
+				93658.5365853657,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				97170.731707317,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"lost_flute"
+					]
+				]
+			],
+			[
+				98341.463414634,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"timothy_joke"
+					]
+				]
+			],
+			[
+				101853.658536585,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Why won't you die!"
+					]
+				]
+			],
+			[
+				103024.390243902,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				112390.243902439,
+				[
+					[
+						"Change Character",
+						"dad",
+						"mc-spider"
+					],
+					[
+						"spawn lyrics",
+						"",
+						"im a giant"
+					]
+				]
+			],
+			[
+				112975.609756097,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"ungoliant"
+					]
+				]
+			],
+			[
+				113487.804878049,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"a shelob"
+					]
+				]
+			],
+			[
+				114000,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"an aragog"
+					]
+				]
+			],
+			[
+				114658.536585366,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"an arukenimon"
+					]
+				]
+			],
+			[
+				115463.414634146,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"and i wreck anyone i can"
+					]
+				]
+			],
+			[
+				116634.146341463,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"im pog"
+					]
+				]
+			],
+			[
+				117073.170731707,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"a self propelling hairy hand"
+					]
+				]
+			],
+			[
+				118536.585365853,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"with eight fingers"
+					]
+				]
+			],
+			[
+				119414.634146341,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"wrapped around a pair of scary fangs"
+					]
+				]
+			],
+			[
+				120780.487804878,
+				[
+					[
+						"spawn lyrics",
+						"",
+						"ornate pincers"
+					]
+				]
+			],
+			[
+				121756.097560975,
+				[
+					[
+						"Change Character",
+						"dad",
+						"timothy_joke"
+					]
+				]
+			],
+			[
+				121829.268292683,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				131121.951219512,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"tim_pap"
+					]
+				]
+			],
+			[
+				131121.951219512,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Fuck you Sans!"
+					]
+				]
+			],
+			[
+				132292.682926829,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"I am going to become"
+					]
+				]
+			],
+			[
+				133243.902439024,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"REAL"
+					]
+				]
+			],
+			[
+				134195.121951219,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"NYEHHHHHHHHH"
+					]
+				]
+			],
+			[
+				135804.87804878,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"timothy_joke"
+					]
+				]
+			],
+			[
+				135804.87804878,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				182341.463414634,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"tim_scientist"
+					]
+				]
+			],
+			[
+				182341.463414634,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uah"
+					]
+				]
+			],
+			[
+				182634.146341464,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Wah"
+					]
+				]
+			],
+			[
+				182926.829268293,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Eah"
+					]
+				]
+			],
+			[
+				183219.512195122,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				183365.853658537,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				183512.195121952,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Yaa"
+					]
+				]
+			],
+			[
+				183804.878048781,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Eurh"
+					]
+				]
+			],
+			[
+				184097.56097561,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uah"
+					]
+				]
+			],
+			[
+				184390.243902439,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Euaa"
+					]
+				]
+			],
+			[
+				184682.926829269,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Bah"
+					]
+				]
+			],
+			[
+				184975.609756098,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Wah"
+					]
+				]
+			],
+			[
+				185121.951219513,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Ah"
+					]
+				]
+			],
+			[
+				185268.292682927,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Ah"
+					]
+				]
+			],
+			[
+				185414.634146342,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Ah"
+					]
+				]
+			],
+			[
+				185560.975609756,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				185707.317073171,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				185853.658536586,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				186000,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				186146.341463415,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Geuh"
+					]
+				]
+			],
+			[
+				186439.024390244,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uah"
+					]
+				]
+			],
+			[
+				186731.707317074,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Aaah"
+					]
+				]
+			],
+			[
+				187024.390243903,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Bah"
+					]
+				]
+			],
+			[
+				187317.073170732,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uah"
+					]
+				]
+			],
+			[
+				187609.756097561,
+				[
+					[
+						"Change Character",
+						"BF",
+						"jokeBF_headcrab"
+					]
+				]
+			],
+			[
+				187609.756097561,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Baeh"
+					]
+				]
+			],
+			[
+				187902.439024391,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				188048.780487805,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				188195.12195122,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Dah"
+					]
+				]
+			],
+			[
+				188487.804878049,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uh"
+					]
+				]
+			],
+			[
+				188780.487804878,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uah"
+					]
+				]
+			],
+			[
+				189073.170731708,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Daeh"
+					]
+				]
+			],
+			[
+				189365.853658537,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Bah"
+					]
+				]
+			],
+			[
+				189658.536585366,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Uah"
+					]
+				]
+			],
+			[
+				189951.219512196,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Daeh"
+					]
+				]
+			],
+			[
+				190243.902439025,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				190390.243902439,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"*bonk*"
+					]
+				]
+			],
+			[
+				190536.585365854,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Bah"
+					]
+				]
+			],
+			[
+				190829.268292683,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Ueh"
+					]
+				]
+			],
+			[
+				191414.634146342,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"timothy_joke"
+					]
+				]
+			],
+			[
+				191926.829268293,
+				[
+					[
+						"Change Character",
+						"BF",
+						"jokeBF"
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"Play Animation",
+						"dead",
+						"Dad"
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				201439.024390244,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Remember son..."
+					]
+				]
+			],
+			[
+				202975.609756098,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Dying is"
+					]
+				]
+			],
+			[
+				203853.658536586,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"GAY"
+					]
+				]
+			],
+			[
+				205097.56097561,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"Yes father."
+					]
+				]
+			],
+			[
+				206048.780487805,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				208902.439024391,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"LETS"
+					]
+				]
+			],
+			[
+				209560.975609757,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"FUCKING"
+					]
+				]
+			],
+			[
+				210146.341463415,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"GOOOOOOOOOO"
+					]
+				]
+			],
+			[
+				210731.707317074,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				262465.040650408,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"For his neutral special"
+					]
+				]
+			],
+			[
+				263928.455284554,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"He wields a gun"
+					]
+				]
+			],
+			[
+				264806.504065042,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				267660.162601627,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+					]
+				]
+			],
+			[
+				268318.699186993,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+					]
+				]
+			],
+			[
+				268904.065040651,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+					]
+				]
+			],
+			[
+				269489.43089431,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+					]
+				]
+			],
+			[
+				270074.796747968,
+				[
+					[
+						"spawn lyrics",
+						"false",
+						"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+					]
+				]
+			],
+			[
+				275343.089430895,
+				[
+					[
+						"remove lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				277684.552845529,
+				[
+					[
+						"Set Property",
+						"bf.alpha",
+						"0.00001"
+					]
+				]
+			]
+		]
+	}
+}

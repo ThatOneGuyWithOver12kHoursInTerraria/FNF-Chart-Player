@@ -1,0 +1,52 @@
+{
+    "artists": [
+        "Rochi",
+        "Kaleidoscoper",
+        "BlueRJ",
+        "Callu",
+        "Catimbas",
+        "Yosibu"
+    ],
+    "category": "rush",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "rush"
+    },
+    "difficulties": {
+        "easy": 5,
+        "hard": 8,
+        "hell": -2,
+        "normal": 7
+    },
+    "displayName": "Coming Through",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Yosibu"
+    ],
+    "hasHellDiff": false,
+    "internalName": "coming-through",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Ens4lada"
+    ],
+    "ostArtPath": "rush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 127
+    },
+    "unlockMethod": "STORY_MODE"
+}

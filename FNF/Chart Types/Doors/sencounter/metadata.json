@@ -1,0 +1,46 @@
+{
+    "artists": [
+        "Puppet Master",
+        "Leetram",
+        "BlueRJ",
+        "ChemicalArtist",
+        "PurpleDerple"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 80,
+    "difficulties": {
+        "easy": 7,
+        "hard": 7,
+        "hell": 7,
+        "normal": 7
+    },
+    "displayName": "Encounter (UT Mix)",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "sencounter",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "sencounter",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 195
+    },
+    "unlockMethod": "KNOBS"
+}

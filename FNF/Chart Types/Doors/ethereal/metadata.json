@@ -1,0 +1,50 @@
+{
+    "artists": [
+        "Catimbas",
+        "BlueRJ",
+        "Callu",
+        "Yosibu"
+    ],
+    "category": "ambush",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "ambush"
+    },
+    "difficulties": {
+        "easy": 3,
+        "hard": 7,
+        "hell": -2,
+        "normal": 5
+    },
+    "displayName": "Ethereal",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Igloo"
+    ],
+    "hasHellDiff": false,
+    "internalName": "ethereal",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Hris"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "ambush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 113
+    },
+    "unlockMethod": "STORY_MODE"
+}

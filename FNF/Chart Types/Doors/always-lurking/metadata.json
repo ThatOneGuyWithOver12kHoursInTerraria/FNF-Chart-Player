@@ -1,0 +1,40 @@
+{
+    "artists": [
+        "NOT FINISHED"
+    ],
+    "category": "neverShow",
+    "coders": [],
+    "cost": 10,
+    "difficulties": {
+        "easy": -2,
+        "hard": -2,
+        "hell": -2,
+        "normal": -2
+    },
+    "displayName": "Always Lurking",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "always-lurking",
+    "mechanicDifficulties": {
+        "easy": -2,
+        "hard": -2,
+        "hell": -2,
+        "normal": -2
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "menus",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 176
+    },
+    "unlockMethod": "KNOBS"
+}

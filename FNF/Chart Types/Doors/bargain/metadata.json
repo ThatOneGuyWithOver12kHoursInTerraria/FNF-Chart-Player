@@ -1,0 +1,49 @@
+{
+    "artists": [
+        "Rochi",
+        "Ripsy",
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ"
+    ],
+    "category": "shop",
+    "coders": [],
+    "cost": 90,
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Bargain",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Ens4lada"
+    ],
+    "hasHellDiff": false,
+    "internalName": "bargain",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Fearless"
+    ],
+    "normalCharters": [
+        "Yosibu",
+        "Leetram"
+    ],
+    "ostArtPath": "bargain",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 195
+    },
+    "unlockMethod": "STORY_MODE"
+}

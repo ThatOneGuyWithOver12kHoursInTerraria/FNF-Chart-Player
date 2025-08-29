@@ -1,0 +1,50 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "eyes",
+    "coders": [],
+    "cost": 80,
+    "difficulties": {
+        "easy": 6,
+        "hard": 9,
+        "hell": 11,
+        "normal": 8
+    },
+    "displayName": "Eye Spy",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": true,
+    "internalName": "eye-spy",
+    "mechanicDifficulties": {
+        "easy": 5,
+        "hard": 7,
+        "hell": 9,
+        "normal": 6
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "PurpleDerple"
+    ],
+    "ostArtPath": "eyes",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 266,
+        "normal": 179
+    },
+    "unlockMethod": "STORY_MODE",
+    "deathMetadata": {
+        "deathTipCategory": "eyes"
+    }
+}

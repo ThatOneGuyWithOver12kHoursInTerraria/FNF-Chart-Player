@@ -1,0 +1,26 @@
+{
+	"song": {
+		"events": [
+			[
+				81666.6666666667,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf_rooms_beatbox"
+					]
+				]
+			],
+			[
+				97777.7777777779,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf_rooms"
+					]
+				]
+			]
+		]
+	}
+}

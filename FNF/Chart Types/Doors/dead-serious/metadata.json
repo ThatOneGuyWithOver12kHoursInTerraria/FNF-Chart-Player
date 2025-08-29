@@ -1,0 +1,48 @@
+{
+    "artists": [
+        "Rochi",
+        "Ripsy",
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ"
+    ],
+    "category": "shop",
+    "coders": [],
+    "cost": 90,
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Dead Serious",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": false,
+    "internalName": "dead-serious",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Fearless"
+    ],
+    "normalCharters": [
+        "Yosibu"
+    ],
+    "ostArtPath": "bob",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 164
+    },
+    "unlockMethod": "STORY_MODE"
+}

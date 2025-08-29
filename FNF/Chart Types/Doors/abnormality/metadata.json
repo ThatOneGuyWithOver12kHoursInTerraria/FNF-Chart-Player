@@ -1,0 +1,41 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Noddlet"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 160,
+    "difficulties": {
+        "easy": 7,
+        "hard": 7,
+        "hell": -1,
+        "normal": 7
+    },
+    "displayName": "Abnormality",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "abnormality",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Waldo69"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "mutant",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 209
+    },
+    "unlockMethod": "KNOBS"
+}

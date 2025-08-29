@@ -1,0 +1,626 @@
+{
+	"song": {
+		"events": [
+			[
+				1411.76470588235,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.15,1"
+					]
+				]
+			],
+			[
+				4235.29411764706,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.15,1.5"
+					]
+				]
+			],
+			[
+				7058.82352941176,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				9882.35294117647,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				12705.8823529412,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				15529.4117647059,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				18352.9411764706,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				21176.4705882353,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				29647.0588235294,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				35294.1176470588,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				40941.1764705882,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				46588.2352941176,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				49411.7647058823,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				52235.294117647,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				55058.8235294117,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				57882.3529411764,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				60705.8823529411,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				63529.4117647058,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				66352.9411764705,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				69176.4705882352,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartInOut",
+						"0.25,13"
+					]
+				]
+			],
+			[
+				74823.5294117646,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartInOut",
+						"0.01,0.001"
+					],
+					[
+						"Add Camera Zoom",
+						"",
+						"0.07"
+					]
+				]
+			],
+			[
+				80470.588235294,
+				[
+					[
+						"Change Character",
+						"dad",
+						"corr-trans"
+					],
+					[
+						"Play Animation",
+						"trans",
+						"dad"
+					]
+				]
+			],
+			[
+				81882.3529411764,
+				[
+					[
+						"Flash Camera",
+						"1.2",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"corrMat"
+					],
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				84705.8823529411,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.15,1.5"
+					]
+				]
+			],
+			[
+				87529.4117647058,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				90352.9411764705,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				93176.4705882352,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				98823.5294117646,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,1.5"
+					]
+				]
+			],
+			[
+				101647.058823529,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			],
+			[
+				104470.588235294,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,3"
+					]
+				]
+			],
+			[
+				104558.823529412,
+				[
+					[
+						"subtitle",
+						"0",
+						"*crys* "
+					]
+				]
+			],
+			[
+				106500,
+				[
+					[
+						"subtitle",
+						"0,add",
+						"why..."
+					]
+				]
+			],
+			[
+				106588.235294117,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.3,0.001"
+					]
+				]
+			],
+			[
+				107294.117647059,
+				[
+					[
+						"subtitle",
+						"0,remove",
+						""
+					],
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.3,1"
+					],
+					[
+						"Change Character",
+						"dad",
+						"corrMat_P2"
+					]
+				]
+			],
+			[
+				124941.176470588,
+				[
+					[
+						"subtitle",
+						"0",
+						"See, this pathetic ass isn't even"
+					]
+				]
+			],
+			[
+				126705.882352941,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"worth your time, tag me in."
+					]
+				]
+			],
+			[
+				128470.588235294,
+				[
+					[
+						"subtitle",
+						"0,remove",
+						"worth your time, I'm tagging in."
+					],
+					[
+						"Play Animation",
+						"dies",
+						"bf"
+					]
+				]
+			],
+			[
+				129000,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"Ooh, oops."
+					]
+				]
+			],
+			[
+				129882.352941176,
+				[
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			],
+			[
+				130882.352941176,
+				[
+					[
+						"Change Character",
+						"bf",
+						"matt-destiny"
+					]
+				]
+			],
+			[
+				133323.529411764,
+				[
+					[
+						"subtitle",
+						"0",
+						"Alright."
+					]
+				]
+			],
+			[
+				134117.647058823,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"Uno, "
+					]
+				]
+			],
+			[
+				134470.588235294,
+				[
+					[
+						"subtitle",
+						"0,add",
+						"dos, "
+					]
+				]
+			],
+			[
+				134823.529411764,
+				[
+					[
+						"subtitle",
+						"0,add",
+						"tres, "
+					]
+				]
+			],
+			[
+				135176.470588235,
+				[
+					[
+						"subtitle",
+						"0,add",
+						"quatro."
+					]
+				]
+			],
+			[
+				135529.411764706,
+				[
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			],
+			[
+				175541.911764706,
+				[
+					[
+						"subtitle",
+						"0",
+						"*crys* "
+					]
+				]
+			],
+			[
+				176492.647058823,
+				[
+					[
+						"subtitle",
+						"0,add",
+						"why..."
+					]
+				]
+			],
+			[
+				177088.235294117,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"The real question is"
+					]
+				]
+			],
+			[
+				178014.705882353,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"why the fuck they'd decide to give"
+					]
+				]
+			],
+			[
+				179470.588235294,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"yo ass the sick ass beat."
+					]
+				]
+			],
+			[
+				181235.294117647,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"You came up praying on all of our downfall"
+					]
+				]
+			],
+			[
+				183352.94117647,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"and you ended up so weak you had to give in"
+					]
+				]
+			],
+			[
+				185117.647058823,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"to this bull shit?"
+					]
+				]
+			],
+			[
+				186352.94117647,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"Fuck outta here."
+					],
+					[
+						"Play Animation",
+						"dies",
+						"dad"
+					]
+				]
+			],
+			[
+				188470.588235294,
+				[
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			]
+		]
+	}
+}

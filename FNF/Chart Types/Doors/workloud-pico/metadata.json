@@ -1,0 +1,51 @@
+{
+    "artists": [
+        "Catimbas",
+        "Callu",
+        "PurpleDerple",
+        "Yosibu"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 80,
+    "deathMetadata": {
+        "deathSpeaker": "CURIOUS",
+        "deathSpriteType": "bf-deadCurious",
+        "deathTipCategory": "a60"
+    },
+    "difficulties": {
+        "easy": 7,
+        "hard": 7,
+        "hell": 7,
+        "normal": 7
+    },
+    "displayName": "Workloud (Pico Mix)",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": false,
+    "internalName": "workloud-pico",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Yosibu",
+        "Leetram"
+    ],
+    "ostArtPath": "a60",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 153
+    },
+    "unlockMethod": "KNOBS"
+}

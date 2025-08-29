@@ -1,0 +1,49 @@
+{
+    "artists": [
+        "Catimbas",
+        "Callu",
+        "PurpleDerple",
+        "Yosibu"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 80,
+    "deathMetadata": {
+        "deathSpeaker": "CURIOUS",
+        "deathSpriteType": "bf-deadCurious",
+        "deathTipCategory": "a60"
+    },
+    "difficulties": {
+        "easy": 6,
+        "hard": 6,
+        "hell": 6,
+        "normal": 6
+    },
+    "displayName": "Workloud",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "workloud",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Yosibu",
+        "Leetram"
+    ],
+    "ostArtPath": "a60",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 152
+    },
+    "unlockMethod": "KNOBS"
+}

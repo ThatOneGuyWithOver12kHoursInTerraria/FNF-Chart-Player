@@ -1,0 +1,51 @@
+{
+    "artists": [
+        "Callu",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "screech",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "screech"
+    },
+    "difficulties": {
+        "easy": 3,
+        "hard": 7,
+        "hell": -1,
+        "normal": 5
+    },
+    "displayName": "Darkness",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "darkness",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": -1,
+        "normal": 2
+    },
+    "music": [
+        "Chuckster",
+        "Zumamir"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "screech",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 110
+    },
+    "unlockMethod": "STORY_MODE"
+}

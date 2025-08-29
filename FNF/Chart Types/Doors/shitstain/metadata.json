@@ -1,0 +1,50 @@
+{
+    "artists": [
+        "Callu",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "screech",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "screech"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Shitstain",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "shitstain",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": -2,
+        "normal": 2
+    },
+    "music": [
+        "Waldo69"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "screech",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 119
+    },
+    "unlockMethod": "STORY_MODE"
+}

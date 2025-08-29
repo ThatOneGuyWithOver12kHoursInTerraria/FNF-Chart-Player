@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				11294.1176470588,
+				[
+					[
+						"spawnSeek",
+						"",
+						""
+					]
+				]
+			],
+			[
+				33882.3529411765,
+				[
+					[
+						"Change Character",
+						"dad",
+						"seek_run_body"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf_running"
+					],
+					[
+						"cameraFlashGame",
+						"0xFF000000",
+						"2"
+					]
+				]
+			],
+			[
+				101647.058823529,
+				[
+					[
+						"cameraFlashGame",
+						"0xFF000000",
+						"99999"
+					]
+				]
+			]
+		]
+	}
+}

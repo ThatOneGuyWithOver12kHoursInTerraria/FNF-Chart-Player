@@ -1,0 +1,51 @@
+{
+    "artists": [
+        "Catimbas",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "figure",
+    "coders": [],
+    "cost": 90,
+    "deathMetadata": {
+        "deathTipCategory": "figure"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": 11,
+        "normal": 6
+    },
+    "displayName": "Not A Sound",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": true,
+    "internalName": "not-a-sound",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": 12,
+        "normal": 6
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "figure",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 257,
+        "normal": 175
+    },
+    "unlockMethod": "STORY_MODE"
+}

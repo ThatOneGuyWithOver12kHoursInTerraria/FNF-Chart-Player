@@ -1,0 +1,52 @@
+{
+    "artists": [
+        "Catimbas",
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ"
+    ],
+    "category": "figure",
+    "coders": [],
+    "cost": 200,
+    "deathMetadata": {
+        "deathTipCategory": "elevator"
+    },
+    "difficulties": {
+        "easy": 5,
+        "hard": 10,
+        "hell": -2,
+        "normal": 8
+    },
+    "displayName": "Depths Below",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Ens4lada"
+    ],
+    "hasHellDiff": false,
+    "internalName": "depths-below",
+    "mechanicDifficulties": {
+        "easy": 5,
+        "hard": 8,
+        "hell": 10,
+        "normal": 7
+    },
+    "music": [
+        "Puppet Master",
+        "Waldo69"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "elevator",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 301
+    },
+    "unlockMethod": "STORY_MODE",
+    "useDoorsFontInCredit": true
+}

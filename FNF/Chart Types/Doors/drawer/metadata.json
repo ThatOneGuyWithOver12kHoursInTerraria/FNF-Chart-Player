@@ -1,0 +1,47 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "timothy",
+    "coders": [],
+    "cost": 60,
+    "difficulties": {
+        "easy": 2,
+        "hard": 5,
+        "hell": -2,
+        "normal": 3
+    },
+    "displayName": "Drawer",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Igloo"
+    ],
+    "hasHellDiff": false,
+    "internalName": "drawer",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": -2,
+        "normal": 2
+    },
+    "music": [
+        "Waleter",
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "timothy",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 65
+    },
+    "unlockMethod": "STORY_MODE"
+}

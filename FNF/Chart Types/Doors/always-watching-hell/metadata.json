@@ -1,0 +1,44 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "eyes",
+    "coders": [],
+    "cost": 70,
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": 12,
+        "normal": 6
+    },
+    "displayName": "Always Watching (Hell Mix)",
+    "forceUnlock": false,
+    "hasHellDiff": true,
+    "internalName": "always-watching-hell",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 6,
+        "hell": 8,
+        "normal": 5
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "eyes",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 227,
+        "normal": 181
+    },
+    "unlockMethod": "STORY_MODE",
+    "deathMetadata": {
+        "deathTipCategory": "eyes"
+    }
+}

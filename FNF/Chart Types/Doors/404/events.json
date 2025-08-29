@@ -1,0 +1,76 @@
+{
+	"song": {
+		"events": [
+			[
+				88927.8846153847,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"glitch-alt"
+					]
+				]
+			],
+			[
+				107389.423076923,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"glitch"
+					]
+				]
+			],
+			[
+				125850.961538462,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"glitch-alt"
+					]
+				]
+			],
+			[
+				125923.076923077,
+				[
+					[
+						"show fake time left",
+						"16",
+						"120000"
+					],
+					[
+						"darken the bg",
+						"true",
+						"8"
+					],
+					[
+						"Black bars",
+						"true",
+						"8"
+					]
+				]
+			],
+			[
+				144384.615384616,
+				[
+					[
+						"show real time left",
+						"4",
+						""
+					],
+					[
+						"darken the bg",
+						"false",
+						"4"
+					],
+					[
+						"Black bars",
+						"false",
+						"4"
+					]
+				]
+			]
+		]
+	}
+}

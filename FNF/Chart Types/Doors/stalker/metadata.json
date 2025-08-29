@@ -1,0 +1,51 @@
+{
+    "artists": [
+        "Callu",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "screech",
+    "coders": [],
+    "cost": 80,
+    "deathMetadata": {
+        "deathTipCategory": "screech"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Stalker",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": false,
+    "internalName": "stalker",
+    "mechanicDifficulties": {
+        "easy": 3,
+        "hard": 3,
+        "hell": -2,
+        "normal": 3
+    },
+    "music": [
+        "Zumamir"
+    ],
+    "normalCharters": [
+        "ThatSalad",
+        "Leetram"
+    ],
+    "ostArtPath": "screech",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 134
+    },
+    "unlockMethod": "STORY_MODE"
+}

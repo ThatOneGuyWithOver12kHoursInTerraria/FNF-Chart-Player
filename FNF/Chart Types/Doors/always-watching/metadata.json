@@ -1,0 +1,50 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "eyes",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "eyes"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": 12,
+        "normal": 6
+    },
+    "displayName": "Always Watching",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": true,
+    "internalName": "always-watching",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 6,
+        "hell": 8,
+        "normal": 5
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "PurpleDerple"
+    ],
+    "ostArtPath": "eyes",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 227,
+        "normal": 183
+    },
+    "unlockMethod": "STORY_MODE"
+}

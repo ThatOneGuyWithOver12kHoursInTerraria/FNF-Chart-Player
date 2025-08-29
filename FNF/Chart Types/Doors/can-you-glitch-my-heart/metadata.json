@@ -1,0 +1,40 @@
+{
+    "artists": [
+        "Leetram"
+    ],
+    "category": "neverShow",
+    "coders": [],
+    "cost": 10,
+    "difficulties": {
+        "easy": -2,
+        "hard": -2,
+        "hell": -2,
+        "normal": -2
+    },
+    "displayName": "Null Chad Reference",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "can-you-glitch-my-heart",
+    "mechanicDifficulties": {
+        "easy": -2,
+        "hard": -2,
+        "hell": -2,
+        "normal": -2
+    },
+    "music": [
+        "Bring me the Horizon"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "glitch",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 228
+    },
+    "unlockMethod": "KNOBS"
+}

@@ -1,0 +1,52 @@
+{
+    "artists": [
+        "Rochi",
+        "Kaleidoscoper",
+        "BlueRJ",
+        "Callu",
+        "Catimbas",
+        "Yosibu"
+    ],
+    "category": "rush",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "rush"
+    },
+    "difficulties": {
+        "easy": 3,
+        "hard": 6,
+        "hell": 8,
+        "normal": 5
+    },
+    "displayName": "Demise",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": true,
+    "internalName": "demise",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Waldo69"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "rush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 175,
+        "normal": 152
+    },
+    "unlockMethod": "STORY_MODE"
+}

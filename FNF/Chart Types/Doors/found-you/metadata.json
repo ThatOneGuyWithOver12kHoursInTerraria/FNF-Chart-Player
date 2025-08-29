@@ -1,0 +1,53 @@
+{
+    "artists": [
+        "Ripsy",
+        "PurpleDerple",
+        "NotMerritz",
+        "ChemicalArtist",
+        "Callu",
+        "Yosibu",
+        "Catimbas"
+    ],
+    "category": "seek",
+    "coders": [],
+    "cost": 110,
+    "deathMetadata": {
+        "deathTipCategory": "seek"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": 10,
+        "normal": 7
+    },
+    "displayName": "Found You",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Ens4lada"
+    ],
+    "hasHellDiff": true,
+    "internalName": "found-you",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 5,
+        "hell": 8,
+        "normal": 4
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Ens4lada"
+    ],
+    "ostArtPath": "seek",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 256,
+        "normal": 222
+    },
+    "unlockMethod": "STORY_MODE"
+}

@@ -1,0 +1,44 @@
+{
+    "artists": [
+        "Love you"
+    ],
+    "category": "neverShow",
+    "coders": [
+        "More positivity",
+        "In the community",
+        "<3"
+    ],
+    "cost": 10,
+    "difficulties": {
+        "easy": -2,
+        "hard": -2,
+        "hell": -2,
+        "normal": -2
+    },
+    "displayName": "Test",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "test",
+    "mechanicDifficulties": {
+        "easy": -2,
+        "hard": -2,
+        "hell": -2,
+        "normal": -2
+    },
+    "music": [
+        "<3"
+    ],
+    "normalCharters": [
+        "<3"
+    ],
+    "ostArtPath": "menus",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 106
+    },
+    "unlockMethod": "KNOBS"
+}

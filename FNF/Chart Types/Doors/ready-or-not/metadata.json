@@ -1,0 +1,53 @@
+{
+    "artists": [
+        "Ripsy",
+        "PurpleDerple",
+        "NotMerritz",
+        "ChemicalArtist",
+        "Callu",
+        "Yosibu",
+        "Catimbas"
+    ],
+    "category": "seek",
+    "coders": [],
+    "cost": 110,
+    "deathMetadata": {
+        "deathTipCategory": "seek"
+    },
+    "difficulties": {
+        "easy": 6,
+        "hard": 10,
+        "hell": -2,
+        "normal": 9
+    },
+    "displayName": "Ready Or Not",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "ready-or-not",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 5,
+        "hell": -2,
+        "normal": 4
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "seek",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 185
+    },
+    "unlockMethod": "STORY_MODE"
+}

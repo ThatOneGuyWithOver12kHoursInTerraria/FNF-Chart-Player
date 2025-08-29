@@ -1,0 +1,42 @@
+{
+	"events": [
+		[
+			"ease",
+			[
+				0,
+				"0",
+				"cubeInOut",
+				"1,alphaAll"
+			],
+			[
+				false,
+				1,
+				1
+			]
+		],
+		[
+			"ease",
+			[
+				16,
+				"16",
+				"cubeInOut",
+				"0,alphaAll"
+			],
+			[
+				false,
+				1,
+				1
+			]
+		]
+	],
+	"modifiers": [
+		[
+			"alphaAll",
+			"StealthModifier",
+			"All",
+			-1,
+			-1
+		]
+	],
+	"playfields": 1
+}

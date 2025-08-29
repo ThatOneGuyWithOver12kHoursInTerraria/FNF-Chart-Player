@@ -1,0 +1,49 @@
+{
+    "artists": [
+        "Catimbas",
+        "Yosibu",
+        "BlueRJ"
+    ],
+    "category": "halt",
+    "coders": [],
+    "cost": 80,
+    "deathMetadata": {
+        "deathTipCategory": "halt"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": -2,
+        "normal": 5
+    },
+    "displayName": "Onward",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": false,
+    "internalName": "onward",
+    "mechanicDifficulties": {
+        "easy": 6,
+        "hard": 9,
+        "hell": -2,
+        "normal": 7
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "halt",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 157,
+        "normal": 147
+    },
+    "unlockMethod": "STORY_MODE"
+}

@@ -4,8 +4,10 @@ Depending on which FNF chart type is selected from the following options, will d
 Refer to the "Chart Types" folder for examples of each chart type.
 The FNF chart types that can selected will be:
 FNF (Base Game)
-Psych
 Matt
+Dustin
+Doors
+That will be all for now, but I will be adding more FNF chart types in the future.
 
 There will be several different settings that could be adjusted within the main file, such as the controls, which note lanes to use, which special notes to hit and to not hit, if the song uses multikey (more than the default of 4 keys), and more.
 First, it should ask the user what FNF chart type the song is.
@@ -22,3 +24,5 @@ Here are some known special note use cases:
 bullet notes: always hit them
 death notes: never hit them (aka skip them)
 poison notes: never hit them (aka skip them)
+
+If you have some suggestions of your own, have questions, or notice something interesting, please let me know

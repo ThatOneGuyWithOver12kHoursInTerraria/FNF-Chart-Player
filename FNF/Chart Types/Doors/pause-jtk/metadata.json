@@ -1,0 +1,41 @@
+{
+    "artists": [
+        "Catimbas",
+        "Leetram"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 10,
+    "difficulties": {
+        "easy": 3,
+        "hard": 3,
+        "hell": 3,
+        "normal": 3
+    },
+    "displayName": "Pause Menu ALT (Playable)",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "pause-jtk",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "menus",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 136
+    },
+    "unlockMethod": "KNOBS"
+}

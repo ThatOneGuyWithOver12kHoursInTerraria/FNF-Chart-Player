@@ -1,0 +1,47 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "timothy",
+    "coders": [],
+    "cost": 60,
+    "difficulties": {
+        "easy": 5,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Kumo",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "kumo",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": 2,
+        "normal": 2
+    },
+    "music": [
+        "Icydrip",
+        "Zumamir"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "timothy",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 162
+    },
+    "unlockMethod": "STORY_MODE"
+}

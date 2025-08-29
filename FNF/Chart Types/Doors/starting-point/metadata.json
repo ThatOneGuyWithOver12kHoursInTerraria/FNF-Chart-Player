@@ -1,0 +1,44 @@
+{
+    "artists": [
+        "Catimbas"
+    ],
+    "category": "start",
+    "coders": [],
+    "cost": 0,
+    "difficulties": {
+        "easy": 3,
+        "hard": 6,
+        "hell": -2,
+        "normal": 4
+    },
+    "displayName": "Starting Point",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": true,
+    "hardCharters": [
+        "Ens4lada"
+    ],
+    "hasHellDiff": false,
+    "internalName": "starting-point",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "menus",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 119
+    },
+    "unlockMethod": "STORY_MODE"
+}

@@ -1,0 +1,51 @@
+{
+    "artists": [
+        "Catimbas",
+        "BlueRJ",
+        "Callu",
+        "Yosibu"
+    ],
+    "category": "ambush",
+    "coders": [],
+    "cost": 80,
+    "deathMetadata": {
+        "deathTipCategory": "ambush"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 9,
+        "hell": -2,
+        "normal": 8
+    },
+    "displayName": "Rebound",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "PurpleDerple"
+    ],
+    "hasHellDiff": false,
+    "internalName": "rebound",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master",
+        "Icydrip"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "ambush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 167
+    },
+    "unlockMethod": "STORY_MODE"
+}

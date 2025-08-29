@@ -1,0 +1,46 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "eyes",
+    "coders": [],
+    "cost": 70,
+    "difficulties": {
+        "easy": 6,
+        "hard": 9,
+        "hell": 11,
+        "normal": 8
+    },
+    "displayName": "Stare (Hell Mix)",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": true,
+    "internalName": "stare-hell",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 6,
+        "hell": 8,
+        "normal": 5
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Igloo"
+    ],
+    "ostArtPath": "eyes",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 266,
+        "normal": 145
+    },
+    "unlockMethod": "STORY_MODE",
+    "deathMetadata": {
+        "deathTipCategory": "eyes"
+    }
+}

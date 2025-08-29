@@ -1,0 +1,49 @@
+{
+    "artists": [
+        "Catimbas",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "figure",
+    "coders": [],
+    "cost": 90,
+    "difficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": 11,
+        "normal": 6
+    },
+    "displayName": "Not A Sound (Hell Mix)",
+    "easyCharters": [
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+    ],
+    "hasHellDiff": true,
+    "internalName": "not-a-sound-hell",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": 12,
+        "normal": 6
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "figure",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 257,
+        "normal": 175
+    },
+    "unlockMethod": "STORY_MODE",
+    "deathMetadata": {
+        "deathTipCategory": "figure"
+    }
+}

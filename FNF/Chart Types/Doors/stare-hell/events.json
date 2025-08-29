@@ -1,0 +1,66 @@
+{
+	"song": {
+		"events": [
+			[
+				28800,
+				[
+					[
+						"spawnEyes",
+						"",
+						""
+					]
+				]
+			],
+			[
+				222000,
+				[
+					[
+						"focusCameraOnCharacter",
+						"1",
+						""
+					],
+					[
+						"cameraFreeMove",
+						"",
+						""
+					],
+					[
+						"zoomIn",
+						"cur, 0.5",
+						"0.2"
+					],
+					[
+						"cameraFlashGame",
+						"0xFFFFFFFF",
+						"0.5"
+					],
+					[
+						"addCameraOffset",
+						"",
+						"-50"
+					]
+				]
+			],
+			[
+				223200,
+				[
+					[
+						"zoomIn",
+						"cur, -0.5",
+						"0.8"
+					],
+					[
+						"stopCameraFreeMove",
+						"",
+						""
+					],
+					[
+						"addCameraOffset",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

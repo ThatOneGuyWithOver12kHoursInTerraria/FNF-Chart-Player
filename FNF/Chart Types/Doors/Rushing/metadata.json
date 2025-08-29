@@ -1,0 +1,53 @@
+{
+    "artists": [
+        "Rochi",
+        "Kaleidoscoper",
+        "BlueRJ",
+        "Callu",
+        "Catimbas",
+        "Yosibu"
+    ],
+    "category": "rush",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "rush"
+    },
+    "difficulties": {
+        "easy": 3,
+        "hard": 8,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Rushing",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Igloo"
+    ],
+    "hasHellDiff": false,
+    "internalName": "rushing",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master",
+        "Icydrip"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "rush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 108
+    },
+    "unlockMethod": "STORY_MODE"
+}

@@ -1,0 +1,256 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.04,0.001"
+					]
+				]
+			],
+			[
+				340.909090909091,
+				[
+					[
+						"Better Zoom",
+						"camGame,elasticOut",
+						"0.03,0.3"
+					]
+				]
+			],
+			[
+				681.818181818182,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.04,0.001"
+					]
+				]
+			],
+			[
+				1022.72727272727,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.04,0.001"
+					]
+				]
+			],
+			[
+				1363.63636363636,
+				[
+					[
+						"Better Zoom",
+						"camGame,elasticOut",
+						"0.03,0.3"
+					]
+				]
+			],
+			[
+				1704.54545454545,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.04,0.001"
+					]
+				]
+			],
+			[
+				2045.45454545455,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.04,0.001"
+					]
+				]
+			],
+			[
+				2215.90909090909,
+				[
+					[
+						"Play Animation",
+						"wassup",
+						"Dad"
+					],
+					[
+						"subtitle",
+						"0",
+						"What's up?"
+					]
+				]
+			],
+			[
+				2301.13636363636,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.1,0"
+					]
+				]
+			],
+			[
+				2727.27272727273,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"-0.35,0"
+					],
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			],
+			[
+				99545.4545454546,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.1,0"
+					],
+					[
+						"Play Animation",
+						"letstrysmth",
+						"Dad"
+					],
+					[
+						"subtitle",
+						"0",
+						"Let's try something else."
+					]
+				]
+			],
+			[
+				100619.318181818,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.05,0.001"
+					],
+					[
+						"Screen Shake",
+						"0.01",
+						"0.01"
+					]
+				]
+			],
+			[
+				100909.090909091,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,0"
+					],
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			],
+			[
+				144545.454545455,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearIn",
+						"0.2,2.5"
+					],
+					[
+						"Play Animation",
+						"letitflow",
+						"Dad"
+					],
+					[
+						"subtitle",
+						"0",
+						"Heh heh..."
+					]
+				]
+			],
+			[
+				145397.727272727,
+				[
+					[
+						"subtitle",
+						"0,replace",
+						"Let it flow through you."
+					]
+				]
+			],
+			[
+				147272.727272727,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.15,0"
+					]
+				]
+			],
+			[
+				147272.727272727,
+				[
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			],
+			[
+				184876.687668767,
+				[
+					[
+						"Play Animation",
+						"wassup",
+						"Dad"
+					],
+					[
+						"subtitle",
+						"0",
+						"What's up?"
+					]
+				]
+			],
+			[
+				185292.529252926,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearIn",
+						"0.3,9"
+					],
+					[
+						"subtitle",
+						"0,remove",
+						""
+					]
+				]
+			],
+			[
+				204302.430243025,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearIn",
+						"-0.3,0.001"
+					]
+				]
+			]
+		]
+	}
+}

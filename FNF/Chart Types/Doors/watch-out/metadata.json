@@ -1,0 +1,50 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Callu",
+        "BlueRJ",
+        "Yosibu"
+    ],
+    "category": "eyes",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "eyes"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": 10,
+        "normal": 6
+    },
+    "displayName": "Watch Out",
+    "easyCharters": [
+        "Tiburones202"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Puppet Master"
+    ],
+    "hasHellDiff": false,
+    "internalName": "watch-out",
+    "mechanicDifficulties": {
+        "easy": 3,
+        "hard": 5,
+        "hell": 8,
+        "normal": 4
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Tiburones202"
+    ],
+    "ostArtPath": "eyes",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 244,
+        "normal": 158
+    },
+    "unlockMethod": "STORY_MODE"
+}

@@ -1,0 +1,42 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Noddlet"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 110,
+    "difficulties": {
+        "easy": 7,
+        "hard": 7,
+        "hell": 7,
+        "normal": 7
+    },
+    "displayName": "Sweet Dreams",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "sweet-dreams",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "FM065",
+        "Hris"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "jeffTheKill",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 218
+    },
+    "unlockMethod": "KNOBS"
+}

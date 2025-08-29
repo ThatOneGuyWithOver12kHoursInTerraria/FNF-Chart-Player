@@ -1,0 +1,86 @@
+{
+	"song": {
+		"events": [
+			[
+				13071.4285714286,
+				[
+					[
+						"Better Zoom",
+						"camGame,linearOut",
+						"0.3,0.001"
+					]
+				]
+			],
+			[
+				13714.2857142857,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.3,1"
+					]
+				]
+			],
+			[
+				41142.8571428572,
+				[
+					[
+						"Flash Camera",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				82285.7142857143,
+				[
+					[
+						"Flash Camera",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				96214.2857142857,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.4,0.1"
+					]
+				]
+			],
+			[
+				96750,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.4,6"
+					]
+				]
+			],
+			[
+				109392.857142857,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.3,0.1"
+					]
+				]
+			],
+			[
+				109714.285714286,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.3,1"
+					]
+				]
+			]
+		]
+	}
+}

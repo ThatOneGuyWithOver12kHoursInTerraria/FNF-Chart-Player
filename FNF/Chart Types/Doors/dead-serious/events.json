@@ -1,0 +1,51 @@
+{
+	"song": {
+		"events": [
+			[
+				88615.3846153846,
+				[
+					[
+						"Change Character",
+						"mom",
+						"bob-guitar"
+					],
+					[
+						"badApple",
+						"1",
+						"0.01"
+					],
+					[
+						"cameraFlashHud",
+						"0xFF000000",
+						"1"
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"endBadApple",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				125538.461538461,
+				[
+					[
+						"cameraFlashGame",
+						"0xFF000000",
+						"4"
+					],
+					[
+						"Change Character",
+						"mom",
+						"bob"
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "artists": [
+        "Yosibu",
+        "Kaleidoscoper",
+        "Catimbas",
+        "Ripsy"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 60,
+    "difficulties": {
+        "easy": 6,
+        "hard": 6,
+        "hell": -1,
+        "normal": 6
+    },
+    "displayName": "Angry Spider",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "angry-spider",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "timothyjoke",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 279
+    },
+    "unlockMethod": "KNOBS"
+}

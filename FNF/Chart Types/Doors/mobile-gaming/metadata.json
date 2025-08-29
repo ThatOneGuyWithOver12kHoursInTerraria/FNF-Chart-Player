@@ -1,0 +1,41 @@
+{
+    "artists": [
+        "PurpleDerple"
+    ],
+    "category": "freeplay",
+    "coders": [],
+    "cost": 70,
+    "difficulties": {
+        "easy": 7,
+        "hard": 7,
+        "hell": 7,
+        "normal": 7
+    },
+    "displayName": "Mobile Gaming",
+    "easyCharters": [],
+    "forceUnlock": false,
+    "hardCharters": [],
+    "hasHellDiff": false,
+    "internalName": "mobile-gaming",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "FM065",
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "mobileGaming",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 156
+    },
+    "unlockMethod": "KNOBS"
+}

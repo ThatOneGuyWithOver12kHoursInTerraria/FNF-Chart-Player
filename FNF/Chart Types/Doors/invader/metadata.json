@@ -1,0 +1,46 @@
+{
+    "artists": [
+        "Noddlet",
+        "PurpleDerple",
+        "Yosibu"
+    ],
+    "category": "jack",
+    "coders": [],
+    "cost": 100,
+    "difficulties": {
+        "easy": 5,
+        "hard": 9,
+        "hell": -2,
+        "normal": 8
+    },
+    "displayName": "Invader",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Ens4lada"
+    ],
+    "hasHellDiff": false,
+    "internalName": "invader",
+    "mechanicDifficulties": {
+        "easy": 1,
+        "hard": 1,
+        "hell": -1,
+        "normal": 1
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "jack",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 146
+    },
+    "unlockMethod": "STORY_MODE"
+}

@@ -1,0 +1,46 @@
+{
+    "artists": [
+        "PurpleDerple",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "timothy",
+    "coders": [],
+    "cost": 70,
+    "difficulties": {
+        "easy": 6,
+        "hard": 9,
+        "hell": 11,
+        "normal": 7
+    },
+    "displayName": "Itzy Bitzy",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": true,
+    "internalName": "itzy-bitzy",
+    "mechanicDifficulties": {
+        "easy": 2,
+        "hard": 2,
+        "hell": 2,
+        "normal": 2
+    },
+    "music": [
+        "FM065"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "timothy",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": 191,
+        "normal": 203
+    },
+    "unlockMethod": "STORY_MODE"
+}

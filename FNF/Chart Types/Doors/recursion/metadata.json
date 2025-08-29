@@ -1,0 +1,49 @@
+{
+    "artists": [
+        "Catimbas",
+        "Yosibu",
+        "BlueRJ"
+    ],
+    "category": "ambush",
+    "coders": [],
+    "cost": 70,
+    "deathMetadata": {
+        "deathTipCategory": "ambush"
+    },
+    "difficulties": {
+        "easy": 4,
+        "hard": 8,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Recursion",
+    "easyCharters": [
+        "PurpleDerple"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Leetram"
+    ],
+    "hasHellDiff": false,
+    "internalName": "recursion",
+    "mechanicDifficulties": {
+        "easy": -1,
+        "hard": -1,
+        "hell": -1,
+        "normal": -1
+    },
+    "music": [
+        "Puppet Master"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "ambush",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 146
+    },
+    "unlockMethod": "STORY_MODE"
+}

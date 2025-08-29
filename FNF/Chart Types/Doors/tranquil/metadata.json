@@ -1,0 +1,52 @@
+{
+    "artists": [
+        "Catimbas",
+        "PurpleDerple",
+        "BlueRJ",
+        "Yosibu",
+        "Callu"
+    ],
+    "category": "figure",
+    "coders": [],
+    "cost": 90,
+    "deathMetadata": {
+        "deathTipCategory": "figure"
+    },
+    "difficulties": {
+        "easy": 5,
+        "hard": 8,
+        "hell": -2,
+        "normal": 6
+    },
+    "displayName": "Tranquil",
+    "easyCharters": [
+        "Leetram"
+    ],
+    "forceUnlock": false,
+    "hardCharters": [
+        "Tiburones202"
+    ],
+    "hasHellDiff": false,
+    "internalName": "tranquil",
+    "mechanicDifficulties": {
+        "easy": 4,
+        "hard": 7,
+        "hell": -2,
+        "normal": 6
+    },
+    "music": [
+        "Waldo69",
+        "Fearless"
+    ],
+    "normalCharters": [
+        "Leetram"
+    ],
+    "ostArtPath": "figure",
+    "songLengths": {
+        "easy": null,
+        "hard": null,
+        "hell": null,
+        "normal": 119
+    },
+    "unlockMethod": "STORY_MODE"
+}

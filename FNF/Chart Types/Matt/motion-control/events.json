@@ -1,0 +1,26 @@
+{
+	"song": {
+		"events": [
+			[
+				1528.66242038217,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"0.2,0.01"
+					]
+				]
+			],
+			[
+				6114.64968152866,
+				[
+					[
+						"Better Zoom",
+						"camGame,quartOut",
+						"-0.2,1.5"
+					]
+				]
+			]
+		]
+	}
+}
