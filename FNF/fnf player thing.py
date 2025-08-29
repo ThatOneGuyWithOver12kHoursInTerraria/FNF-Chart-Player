@@ -1,12 +1,32 @@
 import json
 import os
 import time
+from datetime import datetime
 try:
     import keyboard  # pip install keyboard
 except ImportError:
     print("Please install the 'keyboard' module: pip install keyboard")
     exit(1)
 
+LOGS_DIR = os.path.join(os.path.dirname(__file__), 'Logs')
+if not os.path.exists(LOGS_DIR):
+    os.makedirs(LOGS_DIR)
+
+def get_log_file():
+    timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    return os.path.join(LOGS_DIR, f'fnf_run_{timestamp}.txt')
+
+class Logger:
+    def __init__(self, log_path):
+        self.log_path = log_path
+        self.lines = []
+    def log(self, msg):
+        print(msg)
+        self.lines.append(msg)
+    def save(self):
+        with open(self.log_path, 'w', encoding='utf-8') as f:
+            for line in self.lines:
+                f.write(line + '\n')
 # Chart reader stubs
 class ChartReaderBase:
     def __init__(self, chart_path):
@@ -135,19 +155,24 @@ def wait_for_t():
         time.sleep(0.1)
 
 def main():
+    log_path = get_log_file()
+    logger = Logger(log_path)
+    logger.log("Script started.")
     settings = ask_user()
+    logger.log(f"User settings: {settings}")
     reader = settings['chart_class'](settings['chart_file'])
+    logger.log(f"Loading chart: {settings['chart_file']}")
     reader.load_chart()
     notes = reader.get_notes()
-    print(f"Loaded {len(notes)} notes from chart.")
+    logger.log(f"Loaded {len(notes)} notes from chart.")
     if len(notes) > 0:
-        print("First 10 notes:")
+        logger.log("First 10 notes:")
         for n in notes[:10]:
-            print(n)
+            logger.log(str(n))
     wait_for_t()
+    logger.log("Playback started.")
 
     # Play notes according to settings
-    print("Playing notes...")
     start_time = time.time()
     note_idx = 0
     total_notes = len(notes)
@@ -162,7 +187,7 @@ def main():
 
         # Check for stop
         if keyboard.is_pressed('t'):
-            print("Stopped!")
+            logger.log("Stopped!")
             stopped = True
             break
 
@@ -181,13 +206,18 @@ def main():
             if not skip_note and lane in settings['controls']:
                 key = settings['controls'][lane]
                 keyboard.press_and_release(key)
+                msg = f"Pressing: {key} (lane {lane}, time {note_time})"
                 if settings['print_presses']:
-                    print(f"Pressing: {key} (lane {lane}, time {note_time})")
+                    logger.log(msg)
+                else:
+                    logger.log(f"Pressed: {key} (lane {lane}, time {note_time})")
             note_idx += 1
         else:
             time.sleep(0.001)
 
-    print("All notes played or stopped.")
+    logger.log("All notes played or stopped.")
+    logger.save()
+    print(f"Log saved to {log_path}")
 
 if __name__ == "__main__":
     main()
