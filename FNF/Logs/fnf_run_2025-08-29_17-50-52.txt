@@ -1,0 +1,80 @@
+[2025-08-29 17:50:52.264] Script started.
+[2025-08-29 17:50:54.156] Loaded preset: {'chart_file': "C:\\Users\\megan\\OneDrive\\Documents\\My Games\\Friday Night Funkin'\\Base 2\\mods\\Vs Tabi Revival V-Slice Port\\data\\songs\\genocide\\genocide-chart.json", 'difficulty': 'normal', 'key_count': 4, 'lanes': [0, 1, 2, 3], 'opponent_lanes': [4, 5, 6, 7], 'controls': {'0': 'z', '1': 'x', '2': 'l', '3': ';'}, 'special_note_settings': {'bullet': True, 'death': False, 'poison': False}, 'extra_settings': {'space': None}, 'print_presses': True, 'chart_class': 'FNFChartReader'}
+[2025-08-29 17:50:54.158] Loaded 1468 notes from chart.
+[2025-08-29 17:50:54.158] First 10 notes:
+[2025-08-29 17:50:54.158] {'time': 19.2, 'lane': 7, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.158] {'time': 19.35, 'lane': 5, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.158] {'time': 19.5, 'lane': 6, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.158] {'time': 19.65, 'lane': 4, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.158] {'time': 19.8, 'lane': 6, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.158] {'time': 19.95, 'lane': 7, 'type': 0, 'sustain': 225}
+[2025-08-29 17:50:54.158] {'time': 20.25, 'lane': 5, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.158] {'time': 20.4, 'lane': 6, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.159] {'time': 20.55, 'lane': 4, 'type': 0, 'sustain': 0}
+[2025-08-29 17:50:54.159] {'time': 20.625, 'lane': 5, 'type': 0, 'sustain': 0}
+[2025-08-29 17:51:05.136] Playback started.
+[2025-08-29 17:51:24.338] Opponent note: lane 7, time 19.2, sustain 0
+[2025-08-29 17:51:24.488] Opponent note: lane 5, time 19.35, sustain 0
+[2025-08-29 17:51:24.637] Opponent note: lane 6, time 19.5, sustain 0
+[2025-08-29 17:51:24.787] Opponent note: lane 4, time 19.65, sustain 0
+[2025-08-29 17:51:24.937] Opponent note: lane 6, time 19.8, sustain 0
+[2025-08-29 17:51:25.087] Opponent note: lane 7, time 19.95, sustain 225
+[2025-08-29 17:51:25.387] Opponent note: lane 5, time 20.25, sustain 0
+[2025-08-29 17:51:25.538] Opponent note: lane 6, time 20.4, sustain 0
+[2025-08-29 17:51:25.688] Opponent note: lane 4, time 20.55, sustain 0
+[2025-08-29 17:51:25.763] Opponent note: lane 5, time 20.625, sustain 0
+[2025-08-29 17:51:25.837] Opponent note: lane 7, time 20.7, sustain 0
+[2025-08-29 17:51:25.987] Opponent note: lane 4, time 20.85, sustain 225
+[2025-08-29 17:51:26.288] Opponent note: lane 6, time 21.15, sustain 0
+[2025-08-29 17:51:26.438] Opponent note: lane 5, time 21.3, sustain 0
+[2025-08-29 17:51:26.587] Opponent note: lane 6, time 21.45, sustain 0
+[2025-08-29 17:51:26.737] Opponent note: lane 7, time 21.6, sustain 0
+[2025-08-29 17:51:26.888] Opponent note: lane 5, time 21.75, sustain 0
+[2025-08-29 17:51:27.037] Opponent note: lane 4, time 21.9, sustain 0
+[2025-08-29 17:51:27.188] Opponent note: lane 6, time 22.05, sustain 0
+[2025-08-29 17:51:27.262] Opponent note: lane 5, time 22.125, sustain 0
+[2025-08-29 17:51:27.338] Opponent note: lane 7, time 22.2, sustain 0
+[2025-08-29 17:51:27.487] Opponent note: lane 6, time 22.35, sustain 225
+[2025-08-29 17:51:27.787] Opponent note: lane 7, time 22.65, sustain 0
+[2025-08-29 17:51:27.937] Opponent note: lane 5, time 22.8, sustain 0
+[2025-08-29 17:51:28.012] Opponent note: lane 6, time 22.875, sustain 0
+[2025-08-29 17:51:28.087] Opponent note: lane 4, time 22.95, sustain 0
+[2025-08-29 17:51:28.162] Opponent note: lane 5, time 23.025, sustain 0
+[2025-08-29 17:51:28.237] Opponent note: lane 7, time 23.1, sustain 0
+[2025-08-29 17:51:28.387] Opponent note: lane 4, time 23.25, sustain 225
+[2025-08-29 17:51:28.687] Opponent note: lane 7, time 23.55, sustain 0
+[2025-08-29 17:51:28.762] Opponent note: lane 5, time 23.625, sustain 0
+[2025-08-29 17:51:28.837] Opponent note: lane 6, time 23.7, sustain 0
+[2025-08-29 17:51:28.987] Opponent note: lane 4, time 23.85, sustain 0
+[2025-08-29 17:51:29.137] Opponent note: lane 5, time 24.0, sustain 675
+[2025-08-29 17:51:29.137] Opponent note: lane 7, time 24.0, sustain 0
+[2025-08-29 17:51:29.138] Pressing: ; (lane 3, time 24.0, hold 0.010s)
+[2025-08-29 17:51:29.147] Released: ; (lane 3, time 24.010)
+[2025-08-29 17:51:29.288] Pressing: x (lane 1, time 24.15, hold 0.010s)
+[2025-08-29 17:51:29.299] Released: x (lane 1, time 24.161)
+[2025-08-29 17:51:29.441] Pressing: l (lane 2, time 24.3, hold 0.010s)
+[2025-08-29 17:51:29.450] Released: l (lane 2, time 24.313)
+[2025-08-29 17:51:29.588] Pressing: z (lane 0, time 24.45, hold 0.010s)
+[2025-08-29 17:51:29.598] Released: z (lane 0, time 24.461)
+[2025-08-29 17:51:29.738] Pressing: l (lane 2, time 24.6, hold 0.010s)
+[2025-08-29 17:51:29.748] Released: l (lane 2, time 24.611)
+[2025-08-29 17:51:29.888] Pressing: ; (lane 3, time 24.75, hold 0.225s)
+[2025-08-29 17:51:30.115] Released: ; (lane 3, time 24.978)
+[2025-08-29 17:51:30.189] Pressing: x (lane 1, time 25.05, hold 0.010s)
+[2025-08-29 17:51:30.200] Released: x (lane 1, time 25.063)
+[2025-08-29 17:51:30.339] Pressing: l (lane 2, time 25.2, hold 0.010s)
+[2025-08-29 17:51:30.349] Released: l (lane 2, time 25.212)
+[2025-08-29 17:51:30.488] Pressing: z (lane 0, time 25.35, hold 0.010s)
+[2025-08-29 17:51:30.499] Released: z (lane 0, time 25.361)
+[2025-08-29 17:51:30.563] Pressing: x (lane 1, time 25.425, hold 0.010s)
+[2025-08-29 17:51:30.573] Released: x (lane 1, time 25.436)
+[2025-08-29 17:51:30.637] Pressing: ; (lane 3, time 25.5, hold 0.010s)
+[2025-08-29 17:51:30.648] Released: ; (lane 3, time 25.511)
+[2025-08-29 17:51:30.788] Pressing: z (lane 0, time 25.65, hold 0.225s)
+[2025-08-29 17:51:31.013] Released: z (lane 0, time 25.876)
+[2025-08-29 17:51:31.088] Pressing: l (lane 2, time 25.95, hold 0.010s)
+[2025-08-29 17:51:31.100] Released: l (lane 2, time 25.962)
+[2025-08-29 17:51:31.238] Pressing: x (lane 1, time 26.1, hold 0.010s)
+[2025-08-29 17:51:31.249] Released: x (lane 1, time 26.112)
+[2025-08-29 17:51:31.342] Stopped!
+[2025-08-29 17:51:31.343] All notes played or stopped.

@@ -1,0 +1,17 @@
+Script started.
+Loaded preset: {'chart_file': "C:\\Users\\megan\\OneDrive\\Documents\\My Games\\Friday Night Funkin'\\Base 2\\mods\\Vs Tabi Revival V-Slice Port\\data\\songs\\genocide\\genocide-chart.json", 'difficulty': 'normal', 'key_count': 4, 'lanes': [0, 1, 2, 3], 'controls': {'0': 'z', '1': 'x', '2': 'l', '3': ';'}, 'special_note_settings': {'bullet': True, 'death': False, 'poison': False}, 'extra_settings': {'space': None}, 'print_presses': True, 'chart_class': 'FNFChartReader'}
+Loaded 1468 notes from chart.
+First 10 notes:
+{'time': 19.2, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 19.35, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 19.5, 'lane': 6, 'type': 0, 'sustain': 0}
+{'time': 19.65, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 19.8, 'lane': 6, 'type': 0, 'sustain': 0}
+{'time': 19.95, 'lane': 7, 'type': 0, 'sustain': 225}
+{'time': 20.25, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 20.4, 'lane': 6, 'type': 0, 'sustain': 0}
+{'time': 20.55, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 20.625, 'lane': 5, 'type': 0, 'sustain': 0}
+Playback started.
+Stopped!
+All notes played or stopped.

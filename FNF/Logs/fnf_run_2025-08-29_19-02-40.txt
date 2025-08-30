@@ -1,0 +1,553 @@
+[2025-08-29 19:02:40.407] Script started.
+[2025-08-29 19:03:13.283] Loaded 1680 notes from chart.
+[2025-08-29 19:03:13.283] First 10 notes:
+[2025-08-29 19:03:13.283] {'time': 1.26315789473684, 'lane': 2, 'type': 0, 'sustain': 237}
+[2025-08-29 19:03:13.283] {'time': 1.26315789473684, 'lane': 1, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 1.73684210526316, 'lane': 2, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.0526315789473704, 'lane': 0, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.13157894736842, 'lane': 1, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.21052631578947, 'lane': 3, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.36842105263158, 'lane': 0, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.52631578947368, 'lane': 1, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.52631578947368, 'lane': 2, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:13.284] {'time': 2.6842105263157903, 'lane': 3, 'type': 0, 'sustain': 0}
+[2025-08-29 19:03:18.597] Playback started.
+[2025-08-29 19:03:19.862] Opponent note: lane 2, time 1.26315789473684, sustain 237
+[2025-08-29 19:03:19.862] Opponent note: lane 1, time 1.26315789473684, sustain 0
+[2025-08-29 19:03:20.335] Opponent note: lane 2, time 1.73684210526316, sustain 0
+[2025-08-29 19:03:20.651] Opponent note: lane 0, time 2.0526315789473704, sustain 0
+[2025-08-29 19:03:20.729] Opponent note: lane 1, time 2.13157894736842, sustain 0
+[2025-08-29 19:03:20.809] Opponent note: lane 3, time 2.21052631578947, sustain 0
+[2025-08-29 19:03:20.967] Opponent note: lane 0, time 2.36842105263158, sustain 0
+[2025-08-29 19:03:21.124] Opponent note: lane 1, time 2.52631578947368, sustain 0
+[2025-08-29 19:03:21.125] Opponent note: lane 2, time 2.52631578947368, sustain 0
+[2025-08-29 19:03:21.282] Opponent note: lane 3, time 2.6842105263157903, sustain 0
+[2025-08-29 19:03:21.440] Opponent note: lane 0, time 2.84210526315789, sustain 0
+[2025-08-29 19:03:21.519] Opponent note: lane 2, time 2.9210526315789496, sustain 0
+[2025-08-29 19:03:21.597] Opponent note: lane 3, time 3.0, sustain 0
+[2025-08-29 19:03:21.913] Opponent note: lane 2, time 3.3157894736842097, sustain 0
+[2025-08-29 19:03:21.913] Opponent note: lane 1, time 3.0, sustain 158
+[2025-08-29 19:03:22.071] Opponent note: lane 0, time 3.47368421052632, sustain 79
+[2025-08-29 19:03:22.229] Opponent note: lane 3, time 3.63157894736842, sustain 0
+[2025-08-29 19:03:22.388] Opponent note: lane 6, time 3.78947368421053, sustain 316
+[2025-08-29 19:03:22.389] Pressing: x (lane 1, time 3.78947368421053, hold 0.010s)
+[2025-08-29 19:03:22.400] Released: x (lane 1, time 3.802)
+[2025-08-29 19:03:22.862] Pressing: l (lane 2, time 4.26315789473684, hold 0.010s)
+[2025-08-29 19:03:22.874] Released: l (lane 2, time 4.276)
+[2025-08-29 19:03:23.178] Pressing: z (lane 0, time 4.5789473684210495, hold 0.010s)
+[2025-08-29 19:03:23.188] Released: z (lane 0, time 4.590)
+[2025-08-29 19:03:23.257] Pressing: x (lane 1, time 4.657894736842101, hold 0.010s)
+[2025-08-29 19:03:23.268] Released: x (lane 1, time 4.670)
+[2025-08-29 19:03:23.335] Pressing: ; (lane 3, time 4.73684210526316, hold 0.010s)
+[2025-08-29 19:03:23.347] Released: ; (lane 3, time 4.748)
+[2025-08-29 19:03:23.493] Pressing: z (lane 0, time 4.894736842105259, hold 0.010s)
+[2025-08-29 19:03:23.493] Pressing: l (lane 2, time 3.78947368421053, hold 0.237s)
+[2025-08-29 19:03:23.503] Released: z (lane 0, time 4.906)
+[2025-08-29 19:03:23.652] Pressing: x (lane 1, time 5.05263157894737, hold 0.010s)
+[2025-08-29 19:03:23.652] Pressing: l (lane 2, time 5.05263157894737, hold 0.010s)
+[2025-08-29 19:03:23.662] Released: l (lane 2, time 5.065)
+[2025-08-29 19:03:23.663] Released: x (lane 1, time 5.065)
+[2025-08-29 19:03:23.810] Pressing: ; (lane 3, time 5.21052631578947, hold 0.010s)
+[2025-08-29 19:03:23.820] Released: ; (lane 3, time 5.222)
+[2025-08-29 19:03:23.968] Pressing: z (lane 0, time 5.3684210526315805, hold 0.010s)
+[2025-08-29 19:03:23.980] Released: z (lane 0, time 5.381)
+[2025-08-29 19:03:24.047] Pressing: l (lane 2, time 5.44736842105263, hold 0.010s)
+[2025-08-29 19:03:24.058] Released: l (lane 2, time 5.460)
+[2025-08-29 19:03:24.125] Pressing: ; (lane 3, time 5.52631578947368, hold 0.010s)
+[2025-08-29 19:03:24.135] Released: ; (lane 3, time 5.538)
+[2025-08-29 19:03:24.441] Pressing: l (lane 2, time 5.842105263157899, hold 0.010s)
+[2025-08-29 19:03:24.442] Pressing: x (lane 1, time 5.52631578947368, hold 0.158s)
+[2025-08-29 19:03:24.451] Released: l (lane 2, time 5.854)
+[2025-08-29 19:03:24.598] Pressing: z (lane 0, time 6.0, hold 0.079s)
+[2025-08-29 19:03:24.600] Released: x (lane 1, time 6.002)
+[2025-08-29 19:03:24.679] Released: z (lane 0, time 6.081)
+[2025-08-29 19:03:24.756] Pressing: ; (lane 3, time 6.157894736842101, hold 0.010s)
+[2025-08-29 19:03:24.767] Released: ; (lane 3, time 6.169)
+[2025-08-29 19:03:24.914] Opponent note: lane 0, time 6.31578947368421, sustain 237
+[2025-08-29 19:03:24.914] Opponent note: lane 1, time 6.31578947368421, sustain 0
+[2025-08-29 19:03:25.387] Opponent note: lane 3, time 6.78947368421053, sustain 0
+[2025-08-29 19:03:25.860] Opponent note: lane 0, time 7.26315789473684, sustain 0
+[2025-08-29 19:03:25.861] Opponent note: lane 1, time 7.105263157894741, sustain 0
+[2025-08-29 19:03:25.861] Opponent note: lane 3, time 7.18421052631579, sustain 0
+[2025-08-29 19:03:25.861] Opponent note: lane 2, time 7.26315789473684, sustain 0
+[2025-08-29 19:03:26.019] Opponent note: lane 1, time 7.4210526315789505, sustain 0
+[2025-08-29 19:03:26.177] Opponent note: lane 2, time 7.5789473684210495, sustain 0
+[2025-08-29 19:03:26.177] Opponent note: lane 3, time 7.5789473684210495, sustain 0
+[2025-08-29 19:03:26.335] Opponent note: lane 0, time 7.73684210526316, sustain 0
+[2025-08-29 19:03:26.492] Opponent note: lane 1, time 7.894736842105259, sustain 0
+[2025-08-29 19:03:26.571] Opponent note: lane 3, time 7.973684210526311, sustain 0
+[2025-08-29 19:03:26.651] Opponent note: lane 2, time 8.05263157894737, sustain 158
+[2025-08-29 19:03:26.651] Opponent note: lane 0, time 8.05263157894737, sustain 0
+[2025-08-29 19:03:26.966] Opponent note: lane 1, time 8.36842105263158, sustain 0
+[2025-08-29 19:03:27.124] Opponent note: lane 3, time 8.52631578947368, sustain 0
+[2025-08-29 19:03:27.281] Opponent note: lane 0, time 8.68421052631579, sustain 0
+[2025-08-29 19:03:27.440] Opponent note: lane 7, time 8.84210526315789, sustain 316
+[2025-08-29 19:03:27.440] Opponent note: lane 6, time 8.84210526315789, sustain 316
+[2025-08-29 19:03:27.441] Pressing: z (lane 0, time 8.84210526315789, hold 0.237s)
+[2025-08-29 19:03:27.442] Pressing: x (lane 1, time 8.84210526315789, hold 0.010s)
+[2025-08-29 19:03:27.452] Released: x (lane 1, time 8.854)
+[2025-08-29 19:03:27.678] Released: z (lane 0, time 9.081)
+[2025-08-29 19:03:27.914] Pressing: ; (lane 3, time 9.31578947368421, hold 0.010s)
+[2025-08-29 19:03:27.924] Released: ; (lane 3, time 9.327)
+[2025-08-29 19:03:28.388] Pressing: z (lane 0, time 9.789473684210531, hold 0.010s)
+[2025-08-29 19:03:28.390] Pressing: x (lane 1, time 9.63157894736842, hold 0.010s)
+[2025-08-29 19:03:28.391] Pressing: ; (lane 3, time 9.710526315789469, hold 0.010s)
+[2025-08-29 19:03:28.391] Pressing: l (lane 2, time 9.789473684210531, hold 0.010s)
+[2025-08-29 19:03:28.398] Released: z (lane 0, time 9.800)
+[2025-08-29 19:03:28.399] Released: x (lane 1, time 9.800)
+[2025-08-29 19:03:28.399] Released: ; (lane 3, time 9.800)
+[2025-08-29 19:03:28.400] Released: l (lane 2, time 9.800)
+[2025-08-29 19:03:28.546] Pressing: x (lane 1, time 9.94736842105263, hold 0.010s)
+[2025-08-29 19:03:28.556] Released: x (lane 1, time 9.959)
+[2025-08-29 19:03:28.704] Pressing: l (lane 2, time 10.1052631578947, hold 0.010s)
+[2025-08-29 19:03:28.704] Pressing: ; (lane 3, time 10.1052631578947, hold 0.010s)
+[2025-08-29 19:03:28.714] Released: l (lane 2, time 10.117)
+[2025-08-29 19:03:28.715] Released: ; (lane 3, time 10.117)
+[2025-08-29 19:03:28.861] Pressing: z (lane 0, time 10.2631578947368, hold 0.010s)
+[2025-08-29 19:03:28.872] Released: z (lane 0, time 10.275)
+[2025-08-29 19:03:29.020] Pressing: x (lane 1, time 10.421052631578899, hold 0.010s)
+[2025-08-29 19:03:29.031] Released: x (lane 1, time 10.433)
+[2025-08-29 19:03:29.099] Pressing: ; (lane 3, time 10.5, hold 0.010s)
+[2025-08-29 19:03:29.109] Released: ; (lane 3, time 10.512)
+[2025-08-29 19:03:29.177] Pressing: l (lane 2, time 10.578947368421101, hold 0.158s)
+[2025-08-29 19:03:29.179] Pressing: z (lane 0, time 10.578947368421101, hold 0.010s)
+[2025-08-29 19:03:29.188] Released: z (lane 0, time 10.591)
+[2025-08-29 19:03:29.336] Released: l (lane 2, time 10.738)
+[2025-08-29 19:03:29.493] Pressing: x (lane 1, time 10.8947368421053, hold 0.010s)
+[2025-08-29 19:03:29.503] Released: x (lane 1, time 10.906)
+[2025-08-29 19:03:29.651] Pressing: ; (lane 3, time 11.0526315789474, hold 0.010s)
+[2025-08-29 19:03:29.661] Released: ; (lane 3, time 11.064)
+[2025-08-29 19:03:29.809] Pressing: z (lane 0, time 11.210526315789501, hold 0.010s)
+[2025-08-29 19:03:29.810] Pressing: l (lane 2, time 10.9736842105263, hold 0.010s)
+[2025-08-29 19:03:29.819] Released: z (lane 0, time 11.222)
+[2025-08-29 19:03:29.820] Released: l (lane 2, time 11.222)
+[2025-08-29 19:03:31.230] Opponent note: lane 0, time 12.6315789473684, sustain 0
+[2025-08-29 19:03:31.230] Opponent note: lane 1, time 12.6315789473684, sustain 0
+[2025-08-29 19:03:31.387] Opponent note: lane 3, time 12.789473684210499, sustain 0
+[2025-08-29 19:03:31.703] Opponent note: lane 2, time 13.1052631578947, sustain 0
+[2025-08-29 19:03:31.704] Opponent note: lane 1, time 13.1052631578947, sustain 0
+[2025-08-29 19:03:32.018] Opponent note: lane 0, time 13.421052631578899, sustain 0
+[2025-08-29 19:03:32.097] Opponent note: lane 1, time 13.5, sustain 0
+[2025-08-29 19:03:32.176] Opponent note: lane 3, time 13.578947368421, sustain 0
+[2025-08-29 19:03:32.334] Opponent note: lane 0, time 13.7368421052632, sustain 0
+[2025-08-29 19:03:32.492] Opponent note: lane 2, time 13.8947368421053, sustain 0
+[2025-08-29 19:03:32.651] Opponent note: lane 1, time 14.0526315789474, sustain 0
+[2025-08-29 19:03:32.809] Opponent note: lane 3, time 14.210526315789501, sustain 0
+[2025-08-29 19:03:32.809] Opponent note: lane 0, time 14.210526315789501, sustain 0
+[2025-08-29 19:03:32.966] Opponent note: lane 2, time 14.3684210526316, sustain 158
+[2025-08-29 19:03:33.282] Opponent note: lane 1, time 14.684210526315798, sustain 0
+[2025-08-29 19:03:33.439] Opponent note: lane 3, time 14.842105263157901, sustain 0
+[2025-08-29 19:03:33.597] Opponent note: lane 0, time 15.0, sustain 0
+[2025-08-29 19:03:33.756] Opponent note: lane 1, time 15.157894736842099, sustain 0
+[2025-08-29 19:03:33.756] Opponent note: lane 2, time 15.157894736842099, sustain 0
+[2025-08-29 19:03:33.914] Opponent note: lane 0, time 15.315789473684202, sustain 0
+[2025-08-29 19:03:34.229] Opponent note: lane 1, time 15.6315789473684, sustain 0
+[2025-08-29 19:03:34.229] Opponent note: lane 3, time 15.6315789473684, sustain 0
+[2025-08-29 19:03:34.545] Opponent note: lane 2, time 15.9473684210526, sustain 0
+[2025-08-29 19:03:34.625] Opponent note: lane 1, time 16.0263157894737, sustain 0
+[2025-08-29 19:03:34.703] Opponent note: lane 0, time 16.1052631578947, sustain 0
+[2025-08-29 19:03:34.861] Opponent note: lane 3, time 16.2631578947368, sustain 0
+[2025-08-29 19:03:35.018] Opponent note: lane 1, time 16.4210526315789, sustain 0
+[2025-08-29 19:03:35.018] Opponent note: lane 0, time 16.4210526315789, sustain 0
+[2025-08-29 19:03:35.177] Opponent note: lane 2, time 16.578947368420998, sustain 0
+[2025-08-29 19:03:35.334] Opponent note: lane 3, time 16.7368421052632, sustain 0
+[2025-08-29 19:03:35.492] Opponent note: lane 2, time 16.8947368421053, sustain 0
+[2025-08-29 19:03:35.492] Opponent note: lane 0, time 16.8947368421053, sustain 159
+[2025-08-29 19:03:35.808] Opponent note: lane 1, time 17.210526315789497, sustain 79
+[2025-08-29 19:03:36.124] Opponent note: lane 3, time 17.526315789473703, sustain 0
+[2025-08-29 19:03:36.282] Opponent note: lane 4, time 17.684210526315802, sustain 316
+[2025-08-29 19:03:36.282] Opponent note: lane 4, time 17.684210526315802, sustain 0
+[2025-08-29 19:03:36.283] Pressing: z (lane 0, time 17.684210526315802, hold 0.010s)
+[2025-08-29 19:03:36.285] Pressing: x (lane 1, time 17.684210526315802, hold 0.010s)
+[2025-08-29 19:03:36.294] Released: z (lane 0, time 17.696)
+[2025-08-29 19:03:36.294] Released: x (lane 1, time 17.696)
+[2025-08-29 19:03:36.440] Pressing: ; (lane 3, time 17.8421052631579, hold 0.010s)
+[2025-08-29 19:03:36.450] Released: ; (lane 3, time 17.853)
+[2025-08-29 19:03:36.756] Pressing: l (lane 2, time 18.1578947368421, hold 0.010s)
+[2025-08-29 19:03:36.756] Pressing: x (lane 1, time 18.1578947368421, hold 0.010s)
+[2025-08-29 19:03:36.766] Released: l (lane 2, time 18.168)
+[2025-08-29 19:03:36.767] Released: x (lane 1, time 18.168)
+[2025-08-29 19:03:37.073] Pressing: z (lane 0, time 18.473684210526297, hold 0.010s)
+[2025-08-29 19:03:37.083] Released: z (lane 0, time 18.485)
+[2025-08-29 19:03:37.151] Pressing: x (lane 1, time 18.5526315789474, hold 0.010s)
+[2025-08-29 19:03:37.161] Released: x (lane 1, time 18.563)
+[2025-08-29 19:03:37.230] Pressing: ; (lane 3, time 18.631578947368403, hold 0.010s)
+[2025-08-29 19:03:37.240] Released: ; (lane 3, time 18.642)
+[2025-08-29 19:03:37.387] Pressing: z (lane 0, time 18.789473684210503, hold 0.010s)
+[2025-08-29 19:03:37.388] Pressing: z (lane 0, time 18.0, hold 0.010s)
+[2025-08-29 19:03:37.388] Pressing: x (lane 1, time 18.789473684210503, hold 0.010s)
+[2025-08-29 19:03:37.388] Pressing: l (lane 2, time 18.631578947368403, hold 0.010s)
+[2025-08-29 19:03:37.399] Released: z (lane 0, time 18.801)
+[2025-08-29 19:03:37.400] Released: x (lane 1, time 18.801)
+[2025-08-29 19:03:37.401] Released: l (lane 2, time 18.801)
+[2025-08-29 19:03:37.546] Pressing: l (lane 2, time 18.9473684210526, hold 0.010s)
+[2025-08-29 19:03:37.556] Released: l (lane 2, time 18.959)
+[2025-08-29 19:03:37.704] Pressing: x (lane 1, time 19.1052631578947, hold 0.010s)
+[2025-08-29 19:03:37.716] Released: x (lane 1, time 19.118)
+[2025-08-29 19:03:37.862] Pressing: ; (lane 3, time 19.2631578947368, hold 0.010s)
+[2025-08-29 19:03:37.862] Pressing: z (lane 0, time 19.2631578947368, hold 0.010s)
+[2025-08-29 19:03:37.873] Released: ; (lane 3, time 19.275)
+[2025-08-29 19:03:37.874] Released: z (lane 0, time 19.275)
+[2025-08-29 19:03:38.019] Pressing: l (lane 2, time 19.4210526315789, hold 0.158s)
+[2025-08-29 19:03:38.178] Released: l (lane 2, time 19.580)
+[2025-08-29 19:03:38.335] Pressing: x (lane 1, time 19.7368421052632, hold 0.010s)
+[2025-08-29 19:03:38.346] Released: x (lane 1, time 19.748)
+[2025-08-29 19:03:38.495] Pressing: ; (lane 3, time 19.8947368421053, hold 0.010s)
+[2025-08-29 19:03:38.505] Released: ; (lane 3, time 19.907)
+[2025-08-29 19:03:38.651] Pressing: z (lane 0, time 20.0526315789474, hold 0.010s)
+[2025-08-29 19:03:38.652] Pressing: l (lane 2, time 19.8947368421053, hold 0.010s)
+[2025-08-29 19:03:38.662] Released: z (lane 0, time 20.065)
+[2025-08-29 19:03:38.663] Released: l (lane 2, time 20.065)
+[2025-08-29 19:03:38.808] Pressing: x (lane 1, time 20.210526315789497, hold 0.010s)
+[2025-08-29 19:03:38.810] Pressing: l (lane 2, time 20.210526315789497, hold 0.010s)
+[2025-08-29 19:03:38.819] Released: x (lane 1, time 20.221)
+[2025-08-29 19:03:38.819] Released: l (lane 2, time 20.221)
+[2025-08-29 19:03:38.966] Pressing: z (lane 0, time 20.368421052631597, hold 0.010s)
+[2025-08-29 19:03:38.978] Released: z (lane 0, time 20.380)
+[2025-08-29 19:03:39.283] Pressing: x (lane 1, time 20.684210526315802, hold 0.010s)
+[2025-08-29 19:03:39.284] Pressing: ; (lane 3, time 20.684210526315802, hold 0.010s)
+[2025-08-29 19:03:39.294] Released: x (lane 1, time 20.697)
+[2025-08-29 19:03:39.294] Released: ; (lane 3, time 20.697)
+[2025-08-29 19:03:39.600] Pressing: l (lane 2, time 21.0, hold 0.010s)
+[2025-08-29 19:03:39.609] Released: l (lane 2, time 21.012)
+[2025-08-29 19:03:39.677] Pressing: x (lane 1, time 21.078947368420998, hold 0.010s)
+[2025-08-29 19:03:39.687] Released: x (lane 1, time 21.090)
+[2025-08-29 19:03:39.757] Pressing: z (lane 0, time 21.1578947368421, hold 0.010s)
+[2025-08-29 19:03:39.768] Released: z (lane 0, time 21.171)
+[2025-08-29 19:03:39.914] Pressing: ; (lane 3, time 21.315789473684198, hold 0.010s)
+[2025-08-29 19:03:39.915] Pressing: ; (lane 3, time 20.210526315789497, hold 0.010s)
+[2025-08-29 19:03:39.916] Pressing: l (lane 2, time 20.526315789473703, hold 0.010s)
+[2025-08-29 19:03:39.916] Pressing: ; (lane 3, time 21.1578947368421, hold 0.010s)
+[2025-08-29 19:03:39.924] Released: ; (lane 3, time 21.327)
+[2025-08-29 19:03:39.924] Released: l (lane 2, time 21.327)
+[2025-08-29 19:03:40.073] Pressing: x (lane 1, time 21.473684210526297, hold 0.010s)
+[2025-08-29 19:03:40.074] Pressing: z (lane 0, time 21.473684210526297, hold 0.010s)
+[2025-08-29 19:03:40.082] Released: x (lane 1, time 21.485)
+[2025-08-29 19:03:40.083] Released: z (lane 0, time 21.485)
+[2025-08-29 19:03:40.230] Pressing: l (lane 2, time 21.631578947368403, hold 0.010s)
+[2025-08-29 19:03:40.241] Released: l (lane 2, time 21.643)
+[2025-08-29 19:03:40.388] Pressing: ; (lane 3, time 21.789473684210503, hold 0.010s)
+[2025-08-29 19:03:40.398] Released: ; (lane 3, time 21.801)
+[2025-08-29 19:03:40.546] Pressing: l (lane 2, time 21.9473684210526, hold 0.010s)
+[2025-08-29 19:03:40.547] Pressing: z (lane 0, time 21.9473684210526, hold 0.159s)
+[2025-08-29 19:03:40.556] Released: l (lane 2, time 21.958)
+[2025-08-29 19:03:40.705] Released: z (lane 0, time 22.108)
+[2025-08-29 19:03:40.861] Pressing: x (lane 1, time 22.2631578947368, hold 0.079s)
+[2025-08-29 19:03:40.941] Released: x (lane 1, time 22.343)
+[2025-08-29 19:03:41.177] Pressing: ; (lane 3, time 22.578947368420998, hold 0.010s)
+[2025-08-29 19:03:41.178] Pressing: x (lane 1, time 21.789473684210503, hold 0.010s)
+[2025-08-29 19:03:41.179] Pressing: ; (lane 3, time 22.1052631578947, hold 0.010s)
+[2025-08-29 19:03:41.180] Pressing: x (lane 1, time 22.5789473684211, hold 0.010s)
+[2025-08-29 19:03:41.188] Released: ; (lane 3, time 22.590)
+[2025-08-29 19:03:41.189] Released: x (lane 1, time 22.590)
+[2025-08-29 19:03:41.334] Opponent note: lane 0, time 22.7368421052632, sustain 0
+[2025-08-29 19:03:41.334] Opponent note: lane 1, time 22.7368421052632, sustain 0
+[2025-08-29 19:03:41.808] Opponent note: lane 1, time 23.210526315789497, sustain 0
+[2025-08-29 19:03:41.808] Opponent note: lane 3, time 22.8947368421053, sustain 0
+[2025-08-29 19:03:41.808] Opponent note: lane 2, time 23.0526315789474, sustain 0
+[2025-08-29 19:03:41.808] Opponent note: lane 3, time 23.210526315789497, sustain 0
+[2025-08-29 19:03:42.125] Opponent note: lane 2, time 23.526315789473703, sustain 0
+[2025-08-29 19:03:42.203] Opponent note: lane 0, time 23.6052631578947, sustain 0
+[2025-08-29 19:03:42.283] Opponent note: lane 1, time 23.684210526315802, sustain 0
+[2025-08-29 19:03:42.439] Opponent note: lane 3, time 23.8421052631579, sustain 0
+[2025-08-29 19:03:42.597] Opponent note: lane 2, time 24.0, sustain 0
+[2025-08-29 19:03:42.755] Opponent note: lane 1, time 24.1578947368421, sustain 0
+[2025-08-29 19:03:42.913] Opponent note: lane 3, time 24.315789473684198, sustain 0
+[2025-08-29 19:03:42.913] Opponent note: lane 2, time 24.315789473684198, sustain 0
+[2025-08-29 19:03:43.072] Opponent note: lane 0, time 24.473684210526297, sustain 158
+[2025-08-29 19:03:43.387] Opponent note: lane 2, time 24.789473684210503, sustain 0
+[2025-08-29 19:03:43.546] Opponent note: lane 1, time 24.9473684210526, sustain 0
+[2025-08-29 19:03:43.703] Opponent note: lane 3, time 25.1052631578947, sustain 0
+[2025-08-29 19:03:43.861] Opponent note: lane 0, time 25.2631578947368, sustain 0
+[2025-08-29 19:03:43.861] Opponent note: lane 1, time 25.2631578947368, sustain 0
+[2025-08-29 19:03:44.019] Opponent note: lane 3, time 25.421052631579002, sustain 0
+[2025-08-29 19:03:44.335] Opponent note: lane 2, time 25.7368421052632, sustain 79
+[2025-08-29 19:03:44.335] Opponent note: lane 1, time 25.7368421052632, sustain 0
+[2025-08-29 19:03:44.650] Opponent note: lane 0, time 26.0526315789474, sustain 0
+[2025-08-29 19:03:44.730] Opponent note: lane 2, time 26.131578947368403, sustain 0
+[2025-08-29 19:03:44.808] Opponent note: lane 3, time 26.210526315789497, sustain 0
+[2025-08-29 19:03:44.967] Opponent note: lane 1, time 26.368421052631597, sustain 0
+[2025-08-29 19:03:45.124] Opponent note: lane 2, time 26.526315789473703, sustain 0
+[2025-08-29 19:03:45.125] Opponent note: lane 0, time 26.526315789473703, sustain 0
+[2025-08-29 19:03:45.281] Opponent note: lane 1, time 26.684210526315802, sustain 0
+[2025-08-29 19:03:45.439] Opponent note: lane 3, time 26.8421052631579, sustain 0
+[2025-08-29 19:03:45.519] Opponent note: lane 2, time 26.921052631579002, sustain 0
+[2025-08-29 19:03:45.597] Opponent note: lane 0, time 27.0, sustain 158
+[2025-08-29 19:03:45.598] Opponent note: lane 1, time 27.0, sustain 0
+[2025-08-29 19:03:45.914] Opponent note: lane 3, time 27.315789473684198, sustain 0
+[2025-08-29 19:03:46.071] Opponent note: lane 1, time 27.473684210526297, sustain 0
+[2025-08-29 19:03:46.229] Opponent note: lane 2, time 27.631578947368403, sustain 79
+[2025-08-29 19:03:46.545] Opponent note: lane 7, time 27.9473684210526, sustain 395
+[2025-08-29 19:03:46.545] Opponent note: lane 5, time 27.9473684210526, sustain 0
+[2025-08-29 19:03:46.546] Pressing: z (lane 0, time 27.789473684210503, hold 0.010s)
+[2025-08-29 19:03:46.547] Pressing: x (lane 1, time 27.789473684210503, hold 0.010s)
+[2025-08-29 19:03:46.557] Released: z (lane 0, time 27.959)
+[2025-08-29 19:03:46.557] Released: x (lane 1, time 27.959)
+[2025-08-29 19:03:46.862] Pressing: x (lane 1, time 28.2631578947368, hold 0.010s)
+[2025-08-29 19:03:46.864] Pressing: ; (lane 3, time 27.9473684210526, hold 0.010s)
+[2025-08-29 19:03:46.865] Pressing: l (lane 2, time 28.1052631578947, hold 0.010s)
+[2025-08-29 19:03:46.866] Pressing: ; (lane 3, time 28.2631578947368, hold 0.010s)
+[2025-08-29 19:03:46.873] Released: x (lane 1, time 28.276)
+[2025-08-29 19:03:46.873] Released: ; (lane 3, time 28.276)
+[2025-08-29 19:03:46.875] Released: l (lane 2, time 28.276)
+[2025-08-29 19:03:47.178] Pressing: l (lane 2, time 28.5789473684211, hold 0.010s)
+[2025-08-29 19:03:47.188] Released: l (lane 2, time 28.590)
+[2025-08-29 19:03:47.256] Pressing: z (lane 0, time 28.6578947368421, hold 0.010s)
+[2025-08-29 19:03:47.266] Released: z (lane 0, time 28.669)
+[2025-08-29 19:03:47.335] Pressing: x (lane 1, time 28.7368421052632, hold 0.010s)
+[2025-08-29 19:03:47.346] Released: x (lane 1, time 28.748)
+[2025-08-29 19:03:47.494] Pressing: ; (lane 3, time 28.8947368421053, hold 0.010s)
+[2025-08-29 19:03:47.495] Pressing: z (lane 0, time 28.1052631578947, hold 0.010s)
+[2025-08-29 19:03:47.496] Pressing: l (lane 2, time 27.789473684210503, hold 0.010s)
+[2025-08-29 19:03:47.497] Pressing: ; (lane 3, time 28.7368421052632, hold 0.010s)
+[2025-08-29 19:03:47.503] Released: ; (lane 3, time 28.906)
+[2025-08-29 19:03:47.504] Released: z (lane 0, time 28.906)
+[2025-08-29 19:03:47.504] Released: l (lane 2, time 28.906)
+[2025-08-29 19:03:47.650] Pressing: l (lane 2, time 29.0526315789474, hold 0.010s)
+[2025-08-29 19:03:47.662] Released: l (lane 2, time 29.064)
+[2025-08-29 19:03:47.809] Pressing: x (lane 1, time 29.210526315789497, hold 0.010s)
+[2025-08-29 19:03:47.820] Released: x (lane 1, time 29.222)
+[2025-08-29 19:03:47.967] Pressing: ; (lane 3, time 29.368421052631597, hold 0.010s)
+[2025-08-29 19:03:47.968] Pressing: l (lane 2, time 29.368421052631597, hold 0.010s)
+[2025-08-29 19:03:47.977] Released: ; (lane 3, time 29.379)
+[2025-08-29 19:03:47.978] Released: l (lane 2, time 29.379)
+[2025-08-29 19:03:48.124] Pressing: z (lane 0, time 29.526315789473703, hold 0.158s)
+[2025-08-29 19:03:48.282] Released: z (lane 0, time 29.685)
+[2025-08-29 19:03:48.440] Pressing: l (lane 2, time 29.8421052631579, hold 0.010s)
+[2025-08-29 19:03:48.451] Released: l (lane 2, time 29.853)
+[2025-08-29 19:03:48.599] Pressing: x (lane 1, time 30.0, hold 0.010s)
+[2025-08-29 19:03:48.609] Released: x (lane 1, time 30.012)
+[2025-08-29 19:03:48.757] Pressing: ; (lane 3, time 30.1578947368421, hold 0.010s)
+[2025-08-29 19:03:48.758] Pressing: ; (lane 3, time 29.8421052631579, hold 0.010s)
+[2025-08-29 19:03:48.759] Pressing: z (lane 0, time 30.0, hold 0.010s)
+[2025-08-29 19:03:48.761] Pressing: z (lane 0, time 29.368421052631597, hold 0.010s)
+[2025-08-29 19:03:48.761] Pressing: ; (lane 3, time 29.210526315789497, hold 0.010s)
+[2025-08-29 19:03:48.768] Released: ; (lane 3, time 30.171)
+[2025-08-29 19:03:48.768] Released: z (lane 0, time 30.171)
+[2025-08-29 19:03:48.914] Pressing: z (lane 0, time 30.315789473684198, hold 0.010s)
+[2025-08-29 19:03:48.915] Pressing: x (lane 1, time 30.315789473684198, hold 0.010s)
+[2025-08-29 19:03:48.924] Released: z (lane 0, time 30.327)
+[2025-08-29 19:03:48.924] Released: x (lane 1, time 30.327)
+[2025-08-29 19:03:49.074] Pressing: ; (lane 3, time 30.473684210526297, hold 0.010s)
+[2025-08-29 19:03:49.084] Released: ; (lane 3, time 30.486)
+[2025-08-29 19:03:49.387] Pressing: l (lane 2, time 30.789473684210503, hold 0.079s)
+[2025-08-29 19:03:49.388] Pressing: x (lane 1, time 30.789473684210503, hold 0.010s)
+[2025-08-29 19:03:49.399] Released: x (lane 1, time 30.801)
+[2025-08-29 19:03:49.467] Released: l (lane 2, time 30.869)
+[2025-08-29 19:03:49.703] Pressing: z (lane 0, time 31.1052631578947, hold 0.010s)
+[2025-08-29 19:03:49.714] Released: z (lane 0, time 31.117)
+[2025-08-29 19:03:49.782] Pressing: l (lane 2, time 31.184210526315802, hold 0.010s)
+[2025-08-29 19:03:49.793] Released: l (lane 2, time 31.195)
+[2025-08-29 19:03:49.861] Pressing: ; (lane 3, time 31.2631578947368, hold 0.010s)
+[2025-08-29 19:03:49.871] Released: ; (lane 3, time 31.273)
+[2025-08-29 19:03:50.020] Pressing: x (lane 1, time 31.421052631579002, hold 0.010s)
+[2025-08-29 19:03:50.021] Pressing: l (lane 2, time 30.315789473684198, hold 0.010s)
+[2025-08-29 19:03:50.022] Pressing: z (lane 0, time 30.631578947368403, hold 0.010s)
+[2025-08-29 19:03:50.022] Pressing: x (lane 1, time 31.263157894736903, hold 0.010s)
+[2025-08-29 19:03:50.023] Pressing: ; (lane 3, time 31.1052631578947, hold 0.010s)
+[2025-08-29 19:03:50.030] Released: x (lane 1, time 31.432)
+[2025-08-29 19:03:50.031] Released: l (lane 2, time 31.432)
+[2025-08-29 19:03:50.031] Released: z (lane 0, time 31.432)
+[2025-08-29 19:03:50.032] Released: ; (lane 3, time 31.432)
+[2025-08-29 19:03:50.177] Pressing: l (lane 2, time 31.5789473684211, hold 0.010s)
+[2025-08-29 19:03:50.178] Pressing: z (lane 0, time 31.5789473684211, hold 0.010s)
+[2025-08-29 19:03:50.187] Released: l (lane 2, time 31.590)
+[2025-08-29 19:03:50.188] Released: z (lane 0, time 31.590)
+[2025-08-29 19:03:50.335] Pressing: x (lane 1, time 31.7368421052632, hold 0.010s)
+[2025-08-29 19:03:50.346] Released: x (lane 1, time 31.748)
+[2025-08-29 19:03:50.494] Pressing: ; (lane 3, time 31.8947368421053, hold 0.010s)
+[2025-08-29 19:03:50.504] Released: ; (lane 3, time 31.906)
+[2025-08-29 19:03:50.652] Pressing: z (lane 0, time 32.0526315789474, hold 0.158s)
+[2025-08-29 19:03:50.653] Pressing: x (lane 1, time 32.0526315789474, hold 0.010s)
+[2025-08-29 19:03:50.663] Released: x (lane 1, time 32.064)
+[2025-08-29 19:03:50.811] Released: z (lane 0, time 32.214)
+[2025-08-29 19:03:51.283] Pressing: l (lane 2, time 32.6842105263158, hold 0.079s)
+[2025-08-29 19:03:51.284] Pressing: ; (lane 3, time 32.3684210526316, hold 0.079s)
+[2025-08-29 19:03:51.284] Pressing: x (lane 1, time 32.5263157894737, hold 0.079s)
+[2025-08-29 19:03:51.285] Pressing: z (lane 0, time 31.8947368421053, hold 0.010s)
+[2025-08-29 19:03:51.286] Pressing: l (lane 2, time 32.0526315789474, hold 0.010s)
+[2025-08-29 19:03:51.287] Pressing: ; (lane 3, time 32.2105263157895, hold 0.010s)
+[2025-08-29 19:03:51.288] Pressing: z (lane 0, time 32.6842105263158, hold 0.010s)
+[2025-08-29 19:03:51.288] Pressing: l (lane 2, time 32.5263157894737, hold 0.010s)
+[2025-08-29 19:03:51.294] Released: l (lane 2, time 32.696)
+[2025-08-29 19:03:51.294] Released: ; (lane 3, time 32.696)
+[2025-08-29 19:03:51.294] Released: z (lane 0, time 32.696)
+[2025-08-29 19:03:51.364] Released: x (lane 1, time 32.766)
+[2025-08-29 19:03:51.756] Opponent note: lane 0, time 33.1578947368421, sustain 0
+[2025-08-29 19:03:51.914] Opponent note: lane 3, time 33.3157894736842, sustain 0
+[2025-08-29 19:03:51.914] Opponent note: lane 2, time 33.1578947368421, sustain 0
+[2025-08-29 19:03:52.072] Opponent note: lane 1, time 33.4736842105263, sustain 0
+[2025-08-29 19:03:52.072] Opponent note: lane 2, time 33.4736842105263, sustain 0
+[2025-08-29 19:03:52.387] Opponent note: lane 0, time 33.7894736842105, sustain 0
+[2025-08-29 19:03:52.546] Opponent note: lane 3, time 33.947368421052595, sustain 0
+[2025-08-29 19:03:52.704] Opponent note: lane 1, time 34.1052631578947, sustain 0
+[2025-08-29 19:03:52.704] Opponent note: lane 0, time 34.1052631578947, sustain 0
+[2025-08-29 19:03:52.862] Opponent note: lane 3, time 34.2631578947369, sustain 0
+[2025-08-29 19:03:53.019] Opponent note: lane 2, time 34.421052631578995, sustain 0
+[2025-08-29 19:03:53.177] Opponent note: lane 1, time 34.5789473684211, sustain 0
+[2025-08-29 19:03:53.334] Opponent note: lane 0, time 34.73684210526319, sustain 0
+[2025-08-29 19:03:53.334] Opponent note: lane 3, time 34.73684210526319, sustain 158
+[2025-08-29 19:03:53.650] Opponent note: lane 1, time 35.052631578947405, sustain 79
+[2025-08-29 19:03:53.966] Opponent note: lane 5, time 35.368421052631604, sustain 395
+[2025-08-29 19:03:54.283] Pressing: z (lane 0, time 35.6842105263158, hold 0.010s)
+[2025-08-29 19:03:54.295] Released: z (lane 0, time 35.697)
+[2025-08-29 19:03:54.440] Pressing: ; (lane 3, time 35.8421052631579, hold 0.010s)
+[2025-08-29 19:03:54.443] Pressing: l (lane 2, time 35.6842105263158, hold 0.010s)
+[2025-08-29 19:03:54.450] Released: ; (lane 3, time 35.853)
+[2025-08-29 19:03:54.450] Released: l (lane 2, time 35.853)
+[2025-08-29 19:03:54.599] Pressing: x (lane 1, time 36.0, hold 0.010s)
+[2025-08-29 19:03:54.600] Pressing: l (lane 2, time 36.0, hold 0.010s)
+[2025-08-29 19:03:54.609] Released: x (lane 1, time 36.011)
+[2025-08-29 19:03:54.609] Released: l (lane 2, time 36.011)
+[2025-08-29 19:03:54.915] Pressing: z (lane 0, time 36.3157894736842, hold 0.010s)
+[2025-08-29 19:03:54.925] Released: z (lane 0, time 36.327)
+[2025-08-29 19:03:55.072] Pressing: ; (lane 3, time 36.4736842105263, hold 0.010s)
+[2025-08-29 19:03:55.073] Pressing: z (lane 0, time 36.0, hold 0.010s)
+[2025-08-29 19:03:55.074] Pressing: x (lane 1, time 36.4736842105263, hold 0.010s)
+[2025-08-29 19:03:55.083] Released: ; (lane 3, time 36.486)
+[2025-08-29 19:03:55.085] Released: z (lane 0, time 36.486)
+[2025-08-29 19:03:55.086] Released: x (lane 1, time 36.486)
+[2025-08-29 19:03:55.230] Pressing: x (lane 1, time 36.631578947368396, hold 0.010s)
+[2025-08-29 19:03:55.232] Pressing: z (lane 0, time 36.631578947368396, hold 0.010s)
+[2025-08-29 19:03:55.240] Released: x (lane 1, time 36.643)
+[2025-08-29 19:03:55.241] Released: z (lane 0, time 36.643)
+[2025-08-29 19:03:55.388] Pressing: ; (lane 3, time 36.7894736842105, hold 0.010s)
+[2025-08-29 19:03:55.400] Released: ; (lane 3, time 36.802)
+[2025-08-29 19:03:55.547] Pressing: l (lane 2, time 36.947368421052595, hold 0.010s)
+[2025-08-29 19:03:55.557] Released: l (lane 2, time 36.959)
+[2025-08-29 19:03:55.703] Pressing: x (lane 1, time 37.1052631578947, hold 0.010s)
+[2025-08-29 19:03:55.713] Released: x (lane 1, time 37.116)
+[2025-08-29 19:03:55.862] Pressing: z (lane 0, time 37.2631578947369, hold 0.010s)
+[2025-08-29 19:03:55.863] Pressing: ; (lane 3, time 37.2631578947369, hold 0.158s)
+[2025-08-29 19:03:55.871] Released: z (lane 0, time 37.274)
+[2025-08-29 19:03:56.020] Released: ; (lane 3, time 37.422)
+[2025-08-29 19:03:56.177] Pressing: l (lane 2, time 37.5789473684211, hold 0.079s)
+[2025-08-29 19:03:56.178] Pressing: l (lane 2, time 37.26315789473681, hold 0.010s)
+[2025-08-29 19:03:56.179] Pressing: l (lane 2, time 36.7894736842105, hold 0.010s)
+[2025-08-29 19:03:56.188] Released: l (lane 2, time 37.591)
+[2025-08-29 19:03:56.808] Opponent note: lane 0, time 38.2105263157895, sustain 0
+[2025-08-29 19:03:56.808] Opponent note: lane 1, time 38.2105263157895, sustain 0
+[2025-08-29 19:03:57.123] Opponent note: lane 3, time 38.5263157894737, sustain 0
+[2025-08-29 19:03:57.124] Opponent note: lane 2, time 38.368421052631604, sustain 0
+[2025-08-29 19:03:57.124] Opponent note: lane 0, time 38.5263157894737, sustain 0
+[2025-08-29 19:03:57.440] Opponent note: lane 2, time 38.8421052631579, sustain 0
+[2025-08-29 19:03:57.598] Opponent note: lane 1, time 39.0, sustain 0
+[2025-08-29 19:03:57.756] Opponent note: lane 0, time 39.1578947368421, sustain 0
+[2025-08-29 19:03:57.914] Opponent note: lane 3, time 39.3157894736842, sustain 0
+[2025-08-29 19:03:58.072] Opponent note: lane 2, time 39.4736842105263, sustain 0
+[2025-08-29 19:03:58.073] Opponent note: lane 2, time 39.1578947368421, sustain 0
+[2025-08-29 19:03:58.229] Opponent note: lane 0, time 39.631578947368396, sustain 0
+[2025-08-29 19:03:58.388] Opponent note: lane 2, time 39.7894736842105, sustain 158
+[2025-08-29 19:03:58.388] Opponent note: lane 1, time 39.7894736842105, sustain 0
+[2025-08-29 19:03:58.703] Opponent note: lane 3, time 40.1052631578947, sustain 79
+[2025-08-29 19:03:59.019] Opponent note: lane 4, time 40.4210526315789, sustain 316
+[2025-08-29 19:03:59.336] Pressing: z (lane 0, time 40.73684210526319, hold 0.010s)
+[2025-08-29 19:03:59.338] Pressing: x (lane 1, time 40.73684210526319, hold 0.010s)
+[2025-08-29 19:03:59.347] Released: z (lane 0, time 40.749)
+[2025-08-29 19:03:59.348] Released: x (lane 1, time 40.749)
+[2025-08-29 19:03:59.651] Pressing: ; (lane 3, time 41.052631578947405, hold 0.010s)
+[2025-08-29 19:03:59.653] Pressing: l (lane 2, time 40.8947368421053, hold 0.010s)
+[2025-08-29 19:03:59.654] Pressing: z (lane 0, time 41.052631578947405, hold 0.010s)
+[2025-08-29 19:03:59.662] Released: ; (lane 3, time 41.065)
+[2025-08-29 19:03:59.663] Released: l (lane 2, time 41.065)
+[2025-08-29 19:03:59.664] Released: z (lane 0, time 41.065)
+[2025-08-29 19:03:59.966] Pressing: l (lane 2, time 41.368421052631604, hold 0.010s)
+[2025-08-29 19:03:59.977] Released: l (lane 2, time 41.379)
+[2025-08-29 19:04:00.125] Pressing: x (lane 1, time 41.5263157894737, hold 0.010s)
+[2025-08-29 19:04:00.125] Pressing: x (lane 1, time 41.052631578947405, hold 0.010s)
+[2025-08-29 19:04:00.126] Pressing: ; (lane 3, time 41.5263157894737, hold 0.010s)
+[2025-08-29 19:04:00.134] Released: x (lane 1, time 41.537)
+[2025-08-29 19:04:00.135] Released: ; (lane 3, time 41.537)
+[2025-08-29 19:04:00.283] Pressing: z (lane 0, time 41.6842105263158, hold 0.010s)
+[2025-08-29 19:04:00.293] Released: z (lane 0, time 41.696)
+[2025-08-29 19:04:00.441] Pressing: ; (lane 3, time 41.8421052631579, hold 0.010s)
+[2025-08-29 19:04:00.452] Released: ; (lane 3, time 41.855)
+[2025-08-29 19:04:00.600] Pressing: l (lane 2, time 42.0, hold 0.010s)
+[2025-08-29 19:04:00.602] Pressing: l (lane 2, time 41.6842105263158, hold 0.010s)
+[2025-08-29 19:04:00.610] Released: l (lane 2, time 42.013)
+[2025-08-29 19:04:00.757] Pressing: z (lane 0, time 42.1578947368421, hold 0.010s)
+[2025-08-29 19:04:00.768] Released: z (lane 0, time 42.170)
+[2025-08-29 19:04:00.915] Pressing: x (lane 1, time 42.3157894736842, hold 0.010s)
+[2025-08-29 19:04:00.915] Pressing: l (lane 2, time 42.3157894736842, hold 0.010s)
+[2025-08-29 19:04:00.925] Released: x (lane 1, time 42.327)
+[2025-08-29 19:04:00.926] Released: l (lane 2, time 42.327)
+[2025-08-29 19:04:01.071] Pressing: ; (lane 3, time 42.4736842105263, hold 0.010s)
+[2025-08-29 19:04:01.083] Released: ; (lane 3, time 42.486)
+[2025-08-29 19:04:01.230] Pressing: z (lane 0, time 42.631578947368396, hold 0.237s)
+[2025-08-29 19:04:01.231] Pressing: l (lane 2, time 42.631578947368396, hold 0.010s)
+[2025-08-29 19:04:01.232] Pressing: x (lane 1, time 41.8421052631579, hold 0.010s)
+[2025-08-29 19:04:01.233] Pressing: ; (lane 3, time 42.3157894736842, hold 0.010s)
+[2025-08-29 19:04:01.241] Released: l (lane 2, time 42.643)
+[2025-08-29 19:04:01.241] Released: x (lane 1, time 42.643)
+[2025-08-29 19:04:01.241] Released: ; (lane 3, time 42.643)
+[2025-08-29 19:04:01.468] Released: z (lane 0, time 42.870)
+[2025-08-29 19:04:01.862] Pressing: x (lane 1, time 43.26315789473681, hold 0.158s)
+[2025-08-29 19:04:02.021] Released: x (lane 1, time 43.423)
+[2025-08-29 19:04:02.177] Pressing: ; (lane 3, time 43.578947368421005, hold 0.158s)
+[2025-08-29 19:04:02.335] Released: ; (lane 3, time 43.738)
+[2025-08-29 19:04:02.494] Pressing: l (lane 2, time 43.8947368421053, hold 0.079s)
+[2025-08-29 19:04:02.495] Pressing: z (lane 0, time 43.578947368421005, hold 0.010s)
+[2025-08-29 19:04:02.504] Released: z (lane 0, time 43.906)
+[2025-08-29 19:04:02.573] Released: l (lane 2, time 43.975)
+[2025-08-29 19:04:02.651] Pressing: x (lane 1, time 44.052631578947405, hold 0.010s)
+[2025-08-29 19:04:02.662] Released: x (lane 1, time 44.064)
+[2025-08-29 19:04:03.125] Pressing: z (lane 0, time 44.5263157894737, hold 0.010s)
+[2025-08-29 19:04:03.127] Pressing: ; (lane 3, time 44.5263157894737, hold 0.010s)
+[2025-08-29 19:04:03.135] Released: z (lane 0, time 44.538)
+[2025-08-29 19:04:03.135] Released: ; (lane 3, time 44.538)
+[2025-08-29 19:04:03.283] Pressing: x (lane 1, time 44.6842105263158, hold 0.010s)
+[2025-08-29 19:04:03.295] Released: x (lane 1, time 44.697)
+[2025-08-29 19:04:03.442] Pressing: l (lane 2, time 44.8421052631579, hold 0.010s)
+[2025-08-29 19:04:03.442] Pressing: z (lane 0, time 44.8421052631579, hold 0.010s)
+[2025-08-29 19:04:03.452] Released: l (lane 2, time 44.855)
+[2025-08-29 19:04:03.452] Released: z (lane 0, time 44.855)
+[2025-08-29 19:04:03.757] Pressing: ; (lane 3, time 45.1578947368421, hold 0.079s)
+[2025-08-29 19:04:03.758] Pressing: l (lane 2, time 44.368421052631604, hold 0.010s)
+[2025-08-29 19:04:03.759] Pressing: ; (lane 3, time 44.8421052631579, hold 0.010s)
+[2025-08-29 19:04:03.767] Released: ; (lane 3, time 45.169)
+[2025-08-29 19:04:03.768] Released: l (lane 2, time 45.169)
+[2025-08-29 19:04:04.388] Opponent note: lane 1, time 45.7894736842105, sustain 158
+[2025-08-29 19:04:04.704] Opponent note: lane 3, time 46.1052631578947, sustain 158
+[2025-08-29 19:04:05.019] Opponent note: lane 2, time 46.4210526315789, sustain 79
+[2025-08-29 19:04:05.967] Opponent note: lane 2, time 47.368421052631604, sustain 0
+[2025-08-29 19:04:05.967] Opponent note: lane 3, time 47.052631578947405, sustain 0
+[2025-08-29 19:04:05.967] Opponent note: lane 0, time 47.368421052631604, sustain 237
+[2025-08-29 19:04:05.967] Opponent note: lane 0, time 46.7368421052631, sustain 0
+[2025-08-29 19:04:05.967] Opponent note: lane 1, time 46.7368421052631, sustain 158
+[2025-08-29 19:04:06.282] Opponent note: lane 3, time 47.6842105263158, sustain 0
+[2025-08-29 19:04:06.598] Opponent note: lane 5, time 48.0, sustain 632
+[2025-08-29 19:04:06.915] Pressing: z (lane 0, time 48.3157894736842, hold 0.158s)
+[2025-08-29 19:04:07.074] Released: z (lane 0, time 48.476)
+[2025-08-29 19:04:07.230] Pressing: x (lane 1, time 48.631578947368396, hold 0.158s)
+[2025-08-29 19:04:07.389] Released: x (lane 1, time 48.791)
+[2025-08-29 19:04:07.547] Pressing: ; (lane 3, time 48.947368421052595, hold 0.158s)
+[2025-08-29 19:04:07.548] Pressing: l (lane 2, time 48.631578947368396, hold 0.010s)
+[2025-08-29 19:04:07.556] Released: l (lane 2, time 48.959)
+[2025-08-29 19:04:07.704] Pressing: x (lane 1, time 49.1052631578947, hold 0.010s)
+[2025-08-29 19:04:07.706] Released: ; (lane 3, time 49.109)
+[2025-08-29 19:04:07.714] Released: x (lane 1, time 49.117)
+[2025-08-29 19:04:08.178] Pressing: z (lane 0, time 49.578947368421005, hold 0.010s)
+[2025-08-29 19:04:08.179] Pressing: l (lane 2, time 49.578947368421005, hold 0.010s)
+[2025-08-29 19:04:08.189] Released: z (lane 0, time 49.591)
+[2025-08-29 19:04:08.189] Released: l (lane 2, time 49.591)
+[2025-08-29 19:04:08.337] Pressing: x (lane 1, time 49.7368421052631, hold 0.010s)
+[2025-08-29 19:04:08.347] Released: x (lane 1, time 49.749)
+[2025-08-29 19:04:08.494] Pressing: ; (lane 3, time 49.8947368421052, hold 0.010s)
+[2025-08-29 19:04:08.495] Pressing: l (lane 2, time 49.8947368421052, hold 0.010s)
+[2025-08-29 19:04:08.504] Released: ; (lane 3, time 49.907)
+[2025-08-29 19:04:08.505] Released: l (lane 2, time 49.907)
+[2025-08-29 19:04:08.651] Pressing: z (lane 0, time 50.052631578947405, hold 0.010s)
+[2025-08-29 19:04:08.661] Released: z (lane 0, time 50.063)
+[2025-08-29 19:04:08.809] Pressing: l (lane 2, time 50.2105263157895, hold 0.010s)
+[2025-08-29 19:04:08.810] Pressing: ; (lane 3, time 50.2105263157895, hold 0.010s)
+[2025-08-29 19:04:08.819] Released: l (lane 2, time 50.221)
+[2025-08-29 19:04:08.820] Released: ; (lane 3, time 50.221)
+[2025-08-29 19:04:08.968] Pressing: x (lane 1, time 50.368421052631604, hold 0.010s)
+[2025-08-29 19:04:08.970] Pressing: ; (lane 3, time 49.4210526315789, hold 0.010s)
+[2025-08-29 19:04:08.971] Pressing: z (lane 0, time 49.8947368421052, hold 0.010s)
+[2025-08-29 19:04:08.978] Released: x (lane 1, time 50.381)
+[2025-08-29 19:04:08.979] Released: ; (lane 3, time 50.381)
+[2025-08-29 19:04:08.979] Released: z (lane 0, time 50.381)
+[2025-08-29 19:04:09.440] Opponent note: lane 1, time 50.8421052631579, sustain 159
+[2025-08-29 19:04:09.747] Stopped!
+[2025-08-29 19:04:09.747] All notes played or stopped.

@@ -1,0 +1,16 @@
+Script started.
+Loaded 901 notes from chart.
+First 10 notes:
+{'time': 0.0, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 0.16853932584269699, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 0.337, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 0.505, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 0.674, 'lane': 6, 'type': 0, 'sustain': 0}
+{'time': 0.842, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 1.011, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 1.179, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 1.348, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 1.516, 'lane': 7, 'type': 0, 'sustain': 0}
+Playback started.
+Stopped!
+All notes played or stopped.

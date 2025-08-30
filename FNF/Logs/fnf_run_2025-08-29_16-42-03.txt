@@ -1,0 +1,38 @@
+Script started.
+Loaded 901 notes from chart.
+First 10 notes:
+{'time': 0.0, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 0.16853932584269699, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 0.337, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 0.505, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 0.674, 'lane': 6, 'type': 0, 'sustain': 0}
+{'time': 0.842, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 1.011, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 1.179, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 1.348, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 1.516, 'lane': 7, 'type': 0, 'sustain': 0}
+Playback started.
+Pressing: x (lane 1, time 5.393, hold 0.010s)
+Released: x (lane 1, time 5.404)
+Pressing: ; (lane 3, time 5.56179775280899, hold 0.010s)
+Released: ; (lane 3, time 5.573)
+Pressing: z (lane 0, time 5.73, hold 0.010s)
+Released: z (lane 0, time 5.741)
+Pressing: z (lane 0, time 5.898, hold 0.010s)
+Released: z (lane 0, time 5.909)
+Pressing: l (lane 2, time 6.067, hold 0.010s)
+Released: l (lane 2, time 6.077)
+Pressing: ; (lane 3, time 6.235, hold 0.010s)
+Released: ; (lane 3, time 6.247)
+Pressing: x (lane 1, time 6.40449438202247, hold 0.010s)
+Released: x (lane 1, time 6.417)
+Pressing: ; (lane 3, time 6.573, hold 0.010s)
+Released: ; (lane 3, time 6.584)
+Pressing: z (lane 0, time 6.741, hold 0.010s)
+Released: z (lane 0, time 6.752)
+Pressing: ; (lane 3, time 6.91, hold 0.010s)
+Released: ; (lane 3, time 6.921)
+Pressing: l (lane 2, time 7.078, hold 0.010s)
+Released: l (lane 2, time 7.091)
+Stopped!
+All notes played or stopped.

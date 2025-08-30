@@ -1,0 +1,4 @@
+[2025-08-29 18:03:54.250] Script started.
+[2025-08-29 18:04:41.085] Loaded 0 notes from chart.
+[2025-08-29 18:04:43.038] Playback started.
+[2025-08-29 18:04:43.038] All notes played or stopped.

@@ -1,0 +1,6 @@
+Script started.
+User settings: {'chart_class': <class '__main__.FNFChartReader'>, 'chart_file': 'Chart Types\\FNF\\stress\\stress-chart.json', 'key_count': 4, 'lanes': [0, 1, 2, 3], 'controls': {0: 'z', 1: 'x', 2: 'l', 3: ';'}, 'special_note_settings': {'bullet': True, 'death': True, 'poison': False}, 'extra_settings': {'space': None}, 'print_presses': True}
+Loading chart: Chart Types\FNF\stress\stress-chart.json
+Loaded 0 notes from chart.
+Playback started.
+All notes played or stopped.

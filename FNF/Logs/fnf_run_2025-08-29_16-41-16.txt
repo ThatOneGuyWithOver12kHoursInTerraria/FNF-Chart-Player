@@ -1,0 +1,80 @@
+Script started.
+Loaded 901 notes from chart.
+First 10 notes:
+{'time': 0.0, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 0.16853932584269699, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 0.337, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 0.505, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 0.674, 'lane': 6, 'type': 0, 'sustain': 0}
+{'time': 0.842, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 1.011, 'lane': 5, 'type': 0, 'sustain': 0}
+{'time': 1.179, 'lane': 7, 'type': 0, 'sustain': 0}
+{'time': 1.348, 'lane': 4, 'type': 0, 'sustain': 0}
+{'time': 1.516, 'lane': 7, 'type': 0, 'sustain': 0}
+Playback started.
+Pressing: x (lane 1, time 5.393, hold 0.010s)
+Released: x (lane 1, time 5.405)
+Pressing: ; (lane 3, time 5.56179775280899, hold 0.010s)
+Released: ; (lane 3, time 5.573)
+Pressing: z (lane 0, time 5.73, hold 0.010s)
+Released: z (lane 0, time 5.743)
+Pressing: z (lane 0, time 5.898, hold 0.010s)
+Released: z (lane 0, time 5.910)
+Pressing: l (lane 2, time 6.067, hold 0.010s)
+Released: l (lane 2, time 6.080)
+Pressing: ; (lane 3, time 6.235, hold 0.010s)
+Released: ; (lane 3, time 6.247)
+Pressing: x (lane 1, time 6.40449438202247, hold 0.010s)
+Released: x (lane 1, time 6.416)
+Pressing: ; (lane 3, time 6.573, hold 0.010s)
+Released: ; (lane 3, time 6.584)
+Pressing: z (lane 0, time 6.741, hold 0.010s)
+Released: z (lane 0, time 6.752)
+Pressing: ; (lane 3, time 6.91, hold 0.010s)
+Released: ; (lane 3, time 6.921)
+Pressing: l (lane 2, time 7.078, hold 0.010s)
+Released: l (lane 2, time 7.091)
+Pressing: ; (lane 3, time 7.247, hold 0.010s)
+Released: ; (lane 3, time 7.259)
+Pressing: x (lane 1, time 7.415, hold 0.010s)
+Released: x (lane 1, time 7.428)
+Pressing: ; (lane 3, time 7.584, hold 0.010s)
+Released: ; (lane 3, time 7.595)
+Pressing: z (lane 0, time 7.752, hold 0.010s)
+Released: z (lane 0, time 7.763)
+Pressing: ; (lane 3, time 7.921, hold 0.010s)
+Released: ; (lane 3, time 7.933)
+Pressing: x (lane 1, time 8.089, hold 0.010s)
+Released: x (lane 1, time 8.100)
+Pressing: l (lane 2, time 8.258, hold 0.010s)
+Released: l (lane 2, time 8.270)
+Pressing: z (lane 0, time 8.426, hold 0.010s)
+Released: z (lane 0, time 8.437)
+Pressing: z (lane 0, time 8.595, hold 0.010s)
+Released: z (lane 0, time 8.607)
+Pressing: l (lane 2, time 8.764, hold 0.010s)
+Released: l (lane 2, time 8.775)
+Pressing: ; (lane 3, time 8.932, hold 0.010s)
+Released: ; (lane 3, time 8.943)
+Pressing: x (lane 1, time 9.101, hold 0.010s)
+Released: x (lane 1, time 9.112)
+Pressing: ; (lane 3, time 9.269, hold 0.010s)
+Released: ; (lane 3, time 9.281)
+Pressing: z (lane 0, time 9.438, hold 0.010s)
+Released: z (lane 0, time 9.450)
+Pressing: ; (lane 3, time 9.606, hold 0.010s)
+Released: ; (lane 3, time 9.617)
+Pressing: l (lane 2, time 9.775, hold 0.010s)
+Released: l (lane 2, time 9.787)
+Pressing: ; (lane 3, time 9.943, hold 0.010s)
+Released: ; (lane 3, time 9.955)
+Pressing: x (lane 1, time 10.112, hold 0.010s)
+Released: x (lane 1, time 10.123)
+Pressing: ; (lane 3, time 10.28, hold 0.010s)
+Released: ; (lane 3, time 10.291)
+Pressing: z (lane 0, time 10.449, hold 0.010s)
+Released: z (lane 0, time 10.460)
+Pressing: ; (lane 3, time 10.617, hold 0.010s)
+Released: ; (lane 3, time 10.628)
+Stopped!
+All notes played or stopped.
