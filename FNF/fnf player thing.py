@@ -153,12 +153,56 @@ class DustinChartReader(ChartReaderBase):
         self.notes = []
 
 class DoorsChartReader(ChartReaderBase):
-    """Placeholder reader for 'Doors' format (parsing to be implemented)."""
+    """Reader for 'Doors' format charts.
+
+    Observed format (similar to Matt): JSON root has key 'song' with nested array 'notes'. Each
+    element (section) is a dict containing:
+      - 'sectionNotes': array of note entries
+      - 'mustHitSection': bool indicating which side the player is on for this section
+      - optional BPM change data
+
+    A note entry appears in several forms based on samples:
+      [timeMs, lane, sustainMs, typeString]
+      [timeMs, lane, sustainMs, typeString, extraDataArray]
+      [timeMs, lane, sustainMs] (type omitted)
+      [timeMs, lane] (rare, treat sustain=0)
+
+    Some entries include a trailing empty string ("") for type; treat empty string as no special type (0 sentinel).
+    We'll normalize each to a dict with keys: time (seconds), lane, sustain (ms), type (string or 0),
+    section_index, must_hit_section.
+    """
     def load_chart(self):
         with open(self.chart_path, 'r') as f:
             data = json.load(f)
-        # TODO: Implement once format specification is known
         self.notes = []
+        song_data = data.get('song', {})
+        sections = song_data.get('notes', [])
+        for s_idx, section in enumerate(sections):
+            if isinstance(section, dict) and 'sectionNotes' in section:
+                must_hit = section.get('mustHitSection', False)
+                for raw in section.get('sectionNotes', []):
+                    # raw could have extra trailing data (like an array). We'll safely extract.
+                    if not isinstance(raw, list) or len(raw) < 2:
+                        continue
+                    time_ms = raw[0]
+                    lane = raw[1]
+                    sustain = 0
+                    note_type = 0
+                    if len(raw) >= 3 and isinstance(raw[2], (int, float)):
+                        sustain = raw[2]
+                    # 4th element may be type string OR empty string.
+                    if len(raw) >= 4 and isinstance(raw[3], str) and raw[3] != "":
+                        note_type = raw[3]
+                    # Fifth element (if present) is ignored (often []) in samples.
+                    self.notes.append({
+                        'time': (time_ms / 1000.0) if isinstance(time_ms, (int, float)) else 0.0,
+                        'lane': lane if isinstance(lane, (int, float)) else 0,
+                        'type': note_type,
+                        'sustain': sustain if isinstance(sustain, (int, float)) else 0,
+                        'section_index': s_idx,
+                        'must_hit_section': must_hit
+                    })
+        self.notes.sort(key=lambda n: n['time'])
 
 chart_types = {
     # user option -> (human label, reader class)
@@ -244,7 +288,7 @@ def ask_user(logger):
     # If we're in a Matt chart (swap_by_must_hit logic) we also need key bindings for opponent lanes
     # because when mustHitSection is false those lanes become the player's lanes temporarily.
     # Only ask for lanes not already assigned above.
-    if chart_class.__name__ == 'MattChartReader':
+    if chart_class.__name__ in ('MattChartReader', 'DoorsChartReader'):
         missing_opp_controls = [l for l in opponent_lanes if l not in controls]
         if missing_opp_controls:
             print("Because mustHitSection swapping is active, provide keys for opponent lanes (used when mustHitSection is false):")
@@ -280,6 +324,14 @@ def ask_user(logger):
                         # If note has a 4th element and it's a string, treat as special note
                         if len(note) > 3 and isinstance(note[3], str):
                             note_types_found.add(note[3])
+        elif chart_class_name == 'DoorsChartReader':
+            song_data = chart_data.get('song', {})
+            sections = song_data.get('notes', [])
+            for section in sections:
+                if isinstance(section, dict) and 'sectionNotes' in section:
+                    for note in section['sectionNotes']:
+                        if isinstance(note, list) and len(note) > 3 and isinstance(note[3], str) and note[3] != "":
+                            note_types_found.add(note[3])
         # Add any new string types to detected_special_notes
         for t in note_types_found:
             if t not in detected_special_notes:
@@ -310,9 +362,9 @@ def ask_user(logger):
 
     print_presses = input("Print out what is pressed? (y/n): ").strip().lower() == 'y'
 
-    # Matt-specific option: whether to swap lanes based on mustHitSection semantics
-    # For Matt charts we ALWAYS apply swapping semantics (mustHitSection True => base player lanes)
-    swap_by_must_hit = (chart_class.__name__ == 'MattChartReader')  # Always true for Matt (auto-swap semantics)
+    # Matt/Doors-specific option: whether to swap lanes based on mustHitSection semantics
+    # For Matt & Doors charts we ALWAYS apply swapping semantics (mustHitSection True => base player lanes)
+    swap_by_must_hit = (chart_class.__name__ in ('MattChartReader', 'DoorsChartReader'))  # Always true for Matt/Doors
 
     # Ask to save all settings as a preset at the end
     if input("Save all these answers as a preset? (y/n): ").strip().lower() == 'y':
@@ -398,9 +450,9 @@ def main():
     base_player_lanes = settings['lanes']
     base_opponent_lanes = settings.get('opponent_lanes', [])
     # Default to True for Matt even if missing in preset
-    swap_by_must_hit = settings.get('swap_by_must_hit', chart_class_obj == MattChartReader)
-    if chart_class_obj == MattChartReader:
-        logger.log(f"Matt chart lane strategy: mustHitSection swap enforced (swap_by_must_hit={swap_by_must_hit})")
+    swap_by_must_hit = settings.get('swap_by_must_hit', chart_class_obj in (MattChartReader, DoorsChartReader))
+    if chart_class_obj in (MattChartReader, DoorsChartReader):
+        logger.log(f"{chart_class_obj.__name__} lane strategy: mustHitSection swap enforced (swap_by_must_hit={swap_by_must_hit})")
 
     while note_idx < total_notes and not stopped:
         now = time.time() - start_time  # Elapsed seconds since playback start
@@ -436,8 +488,8 @@ def main():
             if note_type == 'bullet':
                 skip_note = False
 
-            # For MattChartReader optionally swap lanes based on mustHitSection
-            if chart_class_obj == MattChartReader and 'must_hit_section' in note and swap_by_must_hit:
+            # For Matt/Doors optionally swap lanes based on mustHitSection
+            if chart_class_obj in (MattChartReader, DoorsChartReader) and 'must_hit_section' in note and swap_by_must_hit:
                 must_hit = note['must_hit_section']
                 player_lanes = set(base_player_lanes) if must_hit else set(base_opponent_lanes)
                 opponent_lanes = set(base_opponent_lanes) if must_hit else set(base_player_lanes)
@@ -447,7 +499,7 @@ def main():
                 opponent_lanes = set(base_opponent_lanes)
 
             # Debug classification (first few notes) to help diagnose issues
-            if note_idx < 30 and chart_class_obj == MattChartReader:
+            if note_idx < 30 and chart_class_obj in (MattChartReader, DoorsChartReader):
                 logger.log(
                     f"DEBUG note_idx={note_idx} t={note_time:.3f} lane={lane} mustHit={must_hit} player_lanes={sorted(player_lanes)} opp_lanes={sorted(opponent_lanes)} class={'PLAYER' if lane in player_lanes else ('OPP' if lane in opponent_lanes else 'UNKNOWN')}"
                 )
