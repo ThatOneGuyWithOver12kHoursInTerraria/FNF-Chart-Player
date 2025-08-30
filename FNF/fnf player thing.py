@@ -27,6 +27,19 @@ def save_preset(name, data):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
 
+def normalize_key(raw):
+    """Normalize a user-entered key name.
+    Accepts:
+      - literal word 'space' (any case)
+      - a single space character
+    Returns canonical 'space' for those, else the raw text.
+    """
+    if raw is None:
+        return ''
+    if raw.lower() == 'space' or raw == ' ':
+        return 'space'
+    return raw
+
 LOGS_DIR = os.path.join(os.path.dirname(__file__), 'Logs')
 if not os.path.exists(LOGS_DIR):
     os.makedirs(LOGS_DIR)
@@ -195,7 +208,13 @@ def ask_user(logger):
     controls = {}
     print("Assign controls for each key:")
     for i in range(key_count):
-        controls[lanes[i]] = input(f"Key for lane {lanes[i]}: ").strip()
+        while True:
+            raw = input(f"Key for lane {lanes[i]} (press space for Space): ")
+            k = normalize_key(raw)
+            if k:
+                controls[lanes[i]] = k
+                break
+            print("Key cannot be empty. Try again.")
 
     # If we're in a Matt chart (swap_by_must_hit logic) we also need key bindings for opponent lanes
     # because when mustHitSection is false those lanes become the player's lanes temporarily.
@@ -205,7 +224,13 @@ def ask_user(logger):
         if missing_opp_controls:
             print("Because mustHitSection swapping is active, provide keys for opponent lanes (used when mustHitSection is false):")
             for l in missing_opp_controls:
-                controls[l] = input(f"Key for opponent lane {l}: ").strip()
+                while True:
+                    raw = input(f"Key for opponent lane {l} (press space for Space): ")
+                    k = normalize_key(raw)
+                    if k:
+                        controls[l] = k
+                        break
+                    print("Key cannot be empty. Try again.")
 
     # Detect all special note types in the chart
     detected_special_notes = set(['bullet', 'death', 'poison'])
@@ -251,8 +276,11 @@ def ask_user(logger):
     extra_mechanics = ['space']
     extra_settings = {}
     for mech in extra_mechanics:
-        key = input(f"Key for extra mechanic '{mech}' (or 'empty' if not used): ").strip()
-        extra_settings[mech] = key if key != 'empty' else None
+        raw = input(f"Key for extra mechanic '{mech}' (or 'empty' if not used, press space for Space): ")
+        if raw.lower().strip() == 'empty':
+            extra_settings[mech] = None
+        else:
+            extra_settings[mech] = normalize_key(raw)
 
     print_presses = input("Print out what is pressed? (y/n): ").strip().lower() == 'y'
 
@@ -395,6 +423,10 @@ def main():
             if lane in player_lanes:
                 if not skip_note and lane in settings['controls']:
                     key = settings['controls'][lane]
+                    if not key:
+                        logger.log(f"WARNING: Empty key binding for lane {lane}; skipping press.")
+                        note_idx += 1
+                        continue
                     hold_time = max(0.01, sustain / 1000.0) if sustain > 0 else 0.01
                     keyboard.press(key)
                     held_notes[lane] = (now + hold_time, key)
