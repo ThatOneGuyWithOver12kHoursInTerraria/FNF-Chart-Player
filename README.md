@@ -1,6 +1,7 @@
 # FNF Player Script
 **THIS PAGE WAS MADE BY COPILOT BECAUSE I WAS LAZY, MANY THINGS HERE WILL CHANGE IN THE FUTURE**
 **IF YOU WOULD LIKE TO REQUEST A MOD OR FEATURE SUPPORT, OR FILE A BUG REPORT, YOU CAN VIA GITHUB, EMAIL ME AT tsolr.savior@gmail.com, OR DM ME ON DISCORD johnnyjj45**
+**(yeah, I don't know how to code :sob:)**
 
 Automated (macro) chart playback helper for Friday Night Funkin' style JSON charts.
 
