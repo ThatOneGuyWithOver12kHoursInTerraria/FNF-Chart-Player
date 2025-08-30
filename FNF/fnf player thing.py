@@ -1,21 +1,27 @@
-import json
-import os
-import time
-from datetime import datetime
+import json  # For reading chart and preset JSON files
+import os    # For filesystem path manipulations and directory creation
+import time  # For timing playback loop and note scheduling
+from datetime import datetime  # For timestamped logging & log file naming
+
+# Attempt to import the keyboard library which simulates key presses.
+# If it's not installed, we instruct the user how to install it and exit.
 try:
     import keyboard  # pip install keyboard
 except ImportError:
     print("Please install the 'keyboard' module: pip install keyboard")
     exit(1)
 
+# Directory that stores user presets (saved configuration answers)
 PRESETS_DIR = os.path.join(os.path.dirname(__file__), 'Presets')
 if not os.path.exists(PRESETS_DIR):
     os.makedirs(PRESETS_DIR)
 
 def list_presets():
+    """Return a list of preset names (without .json extension)."""
     return [f[:-5] for f in os.listdir(PRESETS_DIR) if f.endswith('.json')]
 
 def load_preset(name):
+    """Load preset JSON by name. Returns dict or None if missing."""
     path = os.path.join(PRESETS_DIR, name + '.json')
     if os.path.isfile(path):
         with open(path, 'r', encoding='utf-8') as f:
@@ -23,16 +29,17 @@ def load_preset(name):
     return None
 
 def save_preset(name, data):
+    """Persist a preset dictionary to disk as JSON."""
     path = os.path.join(PRESETS_DIR, name + '.json')
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
 
 def normalize_key(raw):
-    """Normalize a user-entered key name.
-    Accepts:
-      - literal word 'space' (any case)
-      - a single space character
-    Returns canonical 'space' for those, else the raw text.
+    """Normalize user input for a key binding.
+
+    Acceptable forms for Space: 'space' (case-insensitive) or an actual spacebar press
+    (which arrives as a single space character). Everything else is returned unchanged
+    after quick checks. Empty or None is normalized to empty string.
     """
     if raw is None:
         return ''
@@ -40,52 +47,61 @@ def normalize_key(raw):
         return 'space'
     return raw
 
+# Directory storing timestamped log files
 LOGS_DIR = os.path.join(os.path.dirname(__file__), 'Logs')
 if not os.path.exists(LOGS_DIR):
     os.makedirs(LOGS_DIR)
 
 def get_log_file():
+    """Return a unique log file path using current datetime."""
     timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     return os.path.join(LOGS_DIR, f'fnf_run_{timestamp}.txt')
 
 class Logger:
+    """Simple buffered logger that prints and also collects lines for a file."""
     def __init__(self, log_path):
-        self.log_path = log_path
-        self.lines = []
+        self.log_path = log_path  # Destination file
+        self.lines = []           # In-memory accumulation
     def log(self, msg):
+        """Timestamp and record a message (also print to console)."""
         ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
         log_entry = f'[{ts}] {msg}'
         print(log_entry)
         self.lines.append(log_entry)
     def save(self):
+        """Write accumulated lines to disk."""
         with open(self.log_path, 'w', encoding='utf-8') as f:
             for line in self.lines:
                 f.write(line + '\n')
 # Chart reader stubs
 class ChartReaderBase:
+    """Abstract-ish base for chart readers to unify interface."""
     def __init__(self, chart_path):
-        self.chart_path = chart_path
-        self.notes = []
+        self.chart_path = chart_path  # Path to JSON chart
+        self.notes = []               # Normalized list of note dictionaries
     def load_chart(self):
+        """Populate self.notes. Implemented by subclasses."""
         pass
     def get_notes(self):
+        """Return normalized list of notes."""
         return self.notes
 
 class FNFChartReader(ChartReaderBase):
+    """Reader for base-game FNF charts (simplified custom JSON format)."""
     def load_chart(self, difficulty=None, logger=None):
         try:
             with open(self.chart_path, 'r') as f:
                 data = json.load(f)
             self.notes = []
             if difficulty is None:
-                difficulty = 'easy'
+                difficulty = 'easy'  # Default fallback
             notes_list = data.get('notes', {}).get(difficulty, [])
             for note in notes_list:
-                # note: {"t": time, "d": lane, "l": sustain, "p": []}
-                time_pos = note.get('t', 0) / 1000.0  # convert ms to seconds
+                # Expected structure: {"t": milliseconds, "d": lane, "l": sustainMs, ...}
+                time_pos = note.get('t', 0) / 1000.0  # Convert ms -> seconds for runtime scheduling
                 lane = note.get('d', 0)
                 sustain = note.get('l', 0)
-                note_type = 0  # type not present in this format
+                note_type = 0  # No note types (string) in this format; using 0 sentinel
                 self.notes.append({
                     'time': time_pos,
                     'lane': lane,
@@ -93,24 +109,26 @@ class FNFChartReader(ChartReaderBase):
                     'sustain': sustain
                 })
         except Exception as e:
+            # Log via provided logger if available else print
             if logger:
                 logger.log(f"Error parsing FNF chart: {e}")
             else:
                 print(f"Error parsing FNF chart: {e}")
 
 class MattChartReader(ChartReaderBase):
+    """Reader for 'Matt' style charts where data is grouped into sections with mustHitSection flags."""
     def load_chart(self):
         with open(self.chart_path, 'r') as f:
             data = json.load(f)
         self.notes = []
-        song_data = data.get('song', {})
-        sections = song_data.get('notes', [])
-        # Extract sectionNotes; also capture section index and mustHitSection for downstream logic
+        song_data = data.get('song', {})  # Root song object
+        sections = song_data.get('notes', [])  # Array of section dictionaries
+        # Iterate each section, capture index and mustHitSection, then expand raw notes
         for s_idx, section in enumerate(sections):
             if isinstance(section, dict) and 'sectionNotes' in section:
                 must_hit = section.get('mustHitSection', False)
                 for raw in section.get('sectionNotes', []):
-                    # raw: [time, lane, sustain] or [time, lane, sustain, special]
+                    # raw forms: [timeMs, lane, sustainMs] OR [timeMs, lane, sustainMs, stringType]
                     time_pos = raw[0] / 1000.0 if len(raw) > 0 else 0.0
                     lane = raw[1] if len(raw) > 1 else 0
                     sustain = raw[2] if len(raw) > 2 and isinstance(raw[2], (int, float)) else 0
@@ -123,24 +141,27 @@ class MattChartReader(ChartReaderBase):
                         'section_index': s_idx,
                         'must_hit_section': must_hit
                     })
-    # Ensure chronological order; some charts list later sections early
+        # Sort notes to ensure chronological playback (some charts may list sections out of pure order)
         self.notes.sort(key=lambda n: n['time'])
 
 class DustinChartReader(ChartReaderBase):
+    """Placeholder reader for 'Dustin' format (parsing to be implemented)."""
     def load_chart(self):
         with open(self.chart_path, 'r') as f:
             data = json.load(f)
-        # TODO: Parse Dustin chart format
+        # TODO: Implement extraction similar to Matt/FNF by analyzing format
         self.notes = []
 
 class DoorsChartReader(ChartReaderBase):
+    """Placeholder reader for 'Doors' format (parsing to be implemented)."""
     def load_chart(self):
         with open(self.chart_path, 'r') as f:
             data = json.load(f)
-        # TODO: Parse Doors chart format
+        # TODO: Implement once format specification is known
         self.notes = []
 
 chart_types = {
+    # user option -> (human label, reader class)
     '1': ('FNF (Base Game)', FNFChartReader),
     '2': ('Matt', MattChartReader),
     '3': ('Dustin', DustinChartReader),
@@ -148,7 +169,8 @@ chart_types = {
 }
 
 def ask_user(logger):
-    # Preset selection
+    """Interactive prompt sequence to gather configuration (or load a preset)."""
+    # First offer existing presets to skip manual setup
     presets = list_presets()
     if presets:
         print("Available presets:")
@@ -169,6 +191,7 @@ def ask_user(logger):
             preset_data['controls'] = {int(k): v for k, v in preset_data['controls'].items()}
             return preset_data
 
+    # Choose chart reader type
     print("Select FNF chart type:")
     for k, v in chart_types.items():
         print(f"{k}: {v[0]}")
@@ -184,6 +207,7 @@ def ask_user(logger):
         chart_file = input("File not found. Enter chart file name or path: ").strip()
     difficulty = None
     if chart_class == FNFChartReader:
+        # Load file temporarily to list available difficulties (keys inside notes object)
         with open(chart_file, 'r') as f:
             data = json.load(f)
         available_difficulties = list(data.get('notes', {}).keys())
@@ -193,8 +217,9 @@ def ask_user(logger):
             logger.log(f"Invalid difficulty entered: {difficulty}")
             difficulty = input(f"Invalid. Enter difficulty from {', '.join(available_difficulties)}: ").strip().lower()
 
-    key_count = int(input("How many keys will you use? (default 4): ").strip() or "4")
+    key_count = int(input("How many keys will you use? (default 4): ").strip() or "4")  # Supports charts with more keys (e.g. 6/7/9key mods)
 
+    # Explanation of lane numbering assumption
     print("Lane mapping: Lanes on the right side of the screen start from 0 up to your key count minus 1. Any lane numbers after that are for the opponent (usually left side). Example: 0,1,2,3 for you; 4,5,6,7 for opponent.")
     strumline = input(f"Enter your key lanes (comma separated, e.g. 0,1,2,3): ").strip()
     lanes = [int(x) for x in strumline.split(',') if x.strip().isdigit()]
@@ -205,7 +230,7 @@ def ask_user(logger):
     opp_strumline = input(f"Enter opponent key lanes (comma separated, default 4,5,6,7): ").strip() or "4,5,6,7"
     opponent_lanes = [int(x) for x in opp_strumline.split(',') if x.strip().isdigit()]
 
-    controls = {}
+    controls = {}  # Mapping lane_number -> key binding (string recognizable by keyboard lib)
     print("Assign controls for each key:")
     for i in range(key_count):
         while True:
@@ -233,7 +258,7 @@ def ask_user(logger):
                     print("Key cannot be empty. Try again.")
 
     # Detect all special note types in the chart
-    detected_special_notes = set(['bullet', 'death', 'poison'])
+    detected_special_notes = set(['bullet', 'death', 'poison'])  # Seed with known special notes
     try:
         with open(chart_file, 'r') as f:
             chart_data = json.load(f)
@@ -262,6 +287,7 @@ def ask_user(logger):
     except Exception as e:
         logger.log(f"Error detecting special notes: {e}")
 
+    # Turn the set into a list to iterate in stable order (display). Order not guaranteed.
     special_notes = list(detected_special_notes)
     special_note_settings = {}
     print(f"Special notes detected: {', '.join(special_notes)}")
@@ -273,7 +299,7 @@ def ask_user(logger):
             special_note_settings[note] = (ans == 'y')
 
     # Extra mechanics
-    extra_mechanics = ['space']
+    extra_mechanics = ['space']  # Placeholder for extensible extra mechanics
     extra_settings = {}
     for mech in extra_mechanics:
         raw = input(f"Key for extra mechanic '{mech}' (or 'empty' if not used, press space for Space): ")
@@ -286,7 +312,7 @@ def ask_user(logger):
 
     # Matt-specific option: whether to swap lanes based on mustHitSection semantics
     # For Matt charts we ALWAYS apply swapping semantics (mustHitSection True => base player lanes)
-    swap_by_must_hit = (chart_class.__name__ == 'MattChartReader')
+    swap_by_must_hit = (chart_class.__name__ == 'MattChartReader')  # Always true for Matt (auto-swap semantics)
 
     # Ask to save all settings as a preset at the end
     if input("Save all these answers as a preset? (y/n): ").strip().lower() == 'y':
@@ -305,6 +331,7 @@ def ask_user(logger):
             'swap_by_must_hit': swap_by_must_hit
         })
 
+    # Return settings bundle consumed by main playback logic
     return {
         'chart_class': chart_class,
         'chart_file': chart_file,
@@ -320,6 +347,7 @@ def ask_user(logger):
     }
 
 def wait_for_t():
+    """Block until the user presses and releases 'T' to begin playback."""
     print("Press 'T' to start...")
     while True:
         if keyboard.is_pressed('t'):
@@ -331,6 +359,7 @@ def wait_for_t():
         time.sleep(0.1)
 
 def main():
+    """Entry point: gather settings, parse chart, then run playback loop."""
     log_path = get_log_file()
     logger = Logger(log_path)
     logger.log("Script started.")
@@ -344,12 +373,12 @@ def main():
                 chart_class_obj = v[1]
                 break
 
-    reader = chart_class_obj(settings['chart_file'])
+    reader = chart_class_obj(settings['chart_file'])  # Instantiate appropriate chart reader
     if chart_class_obj == FNFChartReader:
         reader.load_chart(settings.get('difficulty'), logger=logger)
     else:
         reader.load_chart()
-    notes = reader.get_notes()
+    notes = reader.get_notes()  # Normalized list of note dicts
     logger.log(f"Loaded {len(notes)} notes from chart.")
     if len(notes) > 0:
         logger.log("First 10 notes:")
@@ -358,14 +387,14 @@ def main():
     wait_for_t()
     logger.log("Playback started.")
 
-    start_time = time.time()
+    start_time = time.time()  # Reference start moment for relative scheduling
     note_idx = 0
     total_notes = len(notes)
     stopped = False
     while keyboard.is_pressed('t'):
         time.sleep(0.05)
 
-    held_notes = {}
+    held_notes = {}  # lane -> (release_timestamp, key_string)
     base_player_lanes = settings['lanes']
     base_opponent_lanes = settings.get('opponent_lanes', [])
     # Default to True for Matt even if missing in preset
@@ -374,8 +403,9 @@ def main():
         logger.log(f"Matt chart lane strategy: mustHitSection swap enforced (swap_by_must_hit={swap_by_must_hit})")
 
     while note_idx < total_notes and not stopped:
-        now = time.time() - start_time
+        now = time.time() - start_time  # Elapsed seconds since playback start
 
+        # Determine which sustained notes should be released at this tick
         lanes_to_release = [lane for lane, (release_time, key) in held_notes.items() if now >= release_time]
         for lane in lanes_to_release:
             key = held_notes[lane][1]
@@ -384,11 +414,13 @@ def main():
                 logger.log(f"Released: {key} (lane {lane}, time {now:.3f})")
             del held_notes[lane]
 
+        # Pressing 't' during playback aborts prematurely
         if keyboard.is_pressed('t'):
             logger.log("Stopped!")
             stopped = True
             break
 
+        # Consume all notes whose scheduled time has arrived (support bursts of simultaneous notes)
         while note_idx < total_notes and now >= notes[note_idx]['time']:
             note = notes[note_idx]
             note_time = note['time']
@@ -427,7 +459,7 @@ def main():
                         logger.log(f"WARNING: Empty key binding for lane {lane}; skipping press.")
                         note_idx += 1
                         continue
-                    hold_time = max(0.01, sustain / 1000.0) if sustain > 0 else 0.01
+                    hold_time = max(0.01, sustain / 1000.0) if sustain > 0 else 0.01  # Minimal hold for taps
                     keyboard.press(key)
                     held_notes[lane] = (now + hold_time, key)
                     msg = f"Pressing: {key} (lane {lane}, time {note_time}, hold {hold_time:.3f}s)"
@@ -439,8 +471,10 @@ def main():
                 logger.log(f"Opponent note: lane {lane}, time {note_time}, sustain {sustain}")
             note_idx += 1
 
+        # Brief sleep to reduce CPU usage; still tight for timing precision
         time.sleep(0.001)
 
+    # Ensure all still-held keys get released upon termination
     for lane, (release_time, key) in held_notes.items():
         keyboard.release(key)
         if settings['print_presses']:
@@ -450,5 +484,5 @@ def main():
     logger.save()
     print(f"Log saved to {log_path}")
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # Standard Python script entrypoint
     main()
