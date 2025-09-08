@@ -8,9 +8,9 @@
 Automated (macro) chart playback helper for Friday Night Funkin' style JSON charts.
 
 It can:
-* Load multiple chart formats (Base FNF JSON, Matt format; Dustin & Doors stubs ready)
+* Load multiple chart formats (Base FNF JSON, Matt, Doors). Dustin format placeholder still pending.
 * Simulate hitting notes with the Python `keyboard` library
-* Dynamically swap which lanes you control in Matt charts using `mustHitSection`
+* Dynamically swap which lanes you control in Matt & Doors charts using `mustHitSection`
 * Detect & optionally skip special note types (string identifiers, e.g. `death`, `poison`, `bullet`)
 * Log every press / release / classification with timestamps to a file
 * Save & load presets (all your answers) for quick reuse
@@ -34,7 +34,7 @@ FNF/
 		FNF/ ... (base game style)
 		Matt/ ... (sections with sectionNotes[] & mustHitSection)
 		Dustin/ (TODO)
-		Doors/  (TODO)
+		Doors/  (working)
 	Presets/ (auto-created)
 	Logs/    (auto-created)
 ```
@@ -46,7 +46,7 @@ FNF/
 | 1        | FNF (Base Game)   | `FNFChartReader`      | Working |
 | 2        | Matt              | `MattChartReader`     | Working (with lane swap) |
 | 3        | Dustin            | `DustinChartReader`   | Stub (parse TBD) |
-| 4        | Doors             | `DoorsChartReader`    | Stub (parse TBD) |
+| 4        | Doors             | `DoorsChartReader`    | Working (with lane swap) |
 
 ### 2.1 Base FNF
 Uses nested `notes` object keyed by difficulty. Each note object: `{ "t": ms, "d": lane, "l": sustain, "p": [] }`.
@@ -72,6 +72,20 @@ When playing a Matt chart:
 
 This behavior matches your request: When `mustHitSection` is false the script hits the opponent-labeled lanes.
 
+### 2.3 Doors Charts
+Structure mirrors Matt charts (sections inside `song.notes` holding `sectionNotes`, `mustHitSection`, and optional BPM fields). Differences observed:
+* Some notes include a 5th element (often an empty array) after the type slot.
+* Empty string (`""`) type entries are treated as normal notes (no special type).
+* Lane swapping uses the same `mustHitSection` logic as Matt: when false, you control the opponent lanes.
+
+Parsing normalizes each raw note variant:
+```
+[timeMs, lane, sustainMs]
+[timeMs, lane, sustainMs, typeString]
+[timeMs, lane, sustainMs, typeString, extraData]
+```
+into a dictionary with `time` (seconds), `lane`, `sustain`, `type` (string or 0), `section_index`, `must_hit_section`.
+
 ## 3. Running
 
 From inside the `FNF` directory:
@@ -91,7 +105,7 @@ sudo python fnf player thing.py
 5. Enter your key lanes (e.g. `0,1,2,3`).
 6. Enter opponent key lanes (defaults to `4,5,6,7`).
 7. Assign physical keys for each of your lanes.
-8. (Matt) Assign keys for opponent lanes (needed for swaps).
+8. (Matt/Doors) Assign keys for opponent lanes (needed for swaps).
 9. Choose handling for each detected special note type (hit or skip) except `bullet` which defaults to hit.
 10. Provide keys for extra mechanics (currently just `space`, or type `empty`).
  - Note from creator: I'm unsure how most mods do this and where they put this extra mechanic (which is usually dodging), so once i figure that out I'm going to set this up as I don't think it works right now.
@@ -117,7 +131,7 @@ On next launch you can pick a preset number and skip re-entering details.
 
 ## 5. Special Notes
 
-Any string found in the 4th element of a Matt section note (or `type` field of a base FNF note if present) is treated as a special note type.
+Any string found in the 4th element of a Matt or Doors section note (or `type` field of a base FNF note if present) is treated as a special note type. Empty strings are ignored.
 
 Default always-hit: `bullet`.
 Prompted (you decide): `death`, `poison`, plus any newly discovered names.
@@ -153,10 +167,10 @@ Use logs to compare with video playback if needed.
 
 ## 9. Extending
 
-Add parsing logic in `DustinChartReader` / `DoorsChartReader.load_chart()` following patterns in `MattChartReader`.
+Add parsing logic in `DustinChartReader` following patterns in `MattChartReader` / `DoorsChartReader`.
 
 ## 10. TODO / Roadmap
-* Implement Dustin & Doors chart parsers
+* Implement Dustin chart parser
 * More accurate sustain handling (early/late release scheduling)
 * BPM-aware future improvements (e.g. predictive drift correction)
 * Option to export CSV of presses

@@ -399,7 +399,8 @@ def ask_user(logger):
     }
 
 def wait_for_t():
-    """Block until the user presses and releases 'T' to begin playback."""
+    """Block until the user presses and releases 'T' to begin playback.
+    Returns the timestamp when playback should start."""
     print("Press 'T' to start...")
     while True:
         if keyboard.is_pressed('t'):
@@ -407,7 +408,8 @@ def wait_for_t():
             # Wait for 'T' to be released before continuing
             while keyboard.is_pressed('t'):
                 time.sleep(0.05)
-            break
+            # Set start time exactly when T is pressed
+            return time.time()
         time.sleep(0.1)
 
 def main():
@@ -436,10 +438,10 @@ def main():
         logger.log("First 10 notes:")
         for n in notes[:10]:
             logger.log(str(n))
-    wait_for_t()
+    # Get the exact start time when T is pressed
+    start_time = wait_for_t()
     logger.log("Playback started.")
 
-    start_time = time.time()  # Reference start moment for relative scheduling
     note_idx = 0
     total_notes = len(notes)
     stopped = False
